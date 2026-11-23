@@ -380,18 +380,33 @@ adb shell am start -S -f 0x10008000 -n com.example.hwpreader.demo/com.example.hw
 
 已完成的 renderer 退出恢复、页面／Worker 超时中止、密码等待暂停计时、错误重试与取消、切换文件隔离，不再列为未完成修复。
 
-## 8. 第三方依赖与归属
+## 8. 参考的开源项目与链接
 
-| 组件 | 固定版本／用途 |
+### 8.1 使用的开源依赖
+
+| 开源项目／仓库链接 | 项目使用版本 | 在本项目中的用途 |
+| --- | --- | --- |
+| [hwp.js — hahnlee/hwp.js](https://github.com/hahnlee/hwp.js) | @hwp.js/parser 0.0.4-alpha.0 | HWP 5 二进制解析，包含本项目的记录兼容补丁；同时提供内置 HWP 公开示例 |
+| [js-cfb — SheetJS/js-cfb](https://github.com/SheetJS/js-cfb) | 1.2.2 | 读取 HWP 及嵌入 OLE 对象的 CFB 容器 |
+| [pako — nodeca/pako](https://github.com/nodeca/pako) | 2.1.0 | 处理正文、资源及密码读取路径中的压缩数据 |
+| [JSZip — Stuk/jszip](https://github.com/Stuk/jszip) | 3.10.1 | 读取 HWPX ZIP 容器、XML 和内嵌资源 |
+| [CryptoJS — brix/crypto-js](https://github.com/brix/crypto-js) | 4.2.0 | 提供 AES、DES、摘要及 PBKDF2 等运算，用于已覆盖的密码和分发保护读取方案 |
+| [rhwp — edwardkim/rhwp](https://github.com/edwardkim/rhwp) | @rhwp/core 0.9.1 | 本地 WASM 旧格式转换、部分普通 HWP 5 兜底，以及旧版图表和密码算法的源码参考 |
+| [rtf.js — tbluemel/rtf.js](https://github.com/tbluemel/rtf.js) | WMFJS／EMFJS 3.0.9 | 绘制文档中的 WMF／EMF 和部分 OLE 静态矢量预览 |
+
+各组件的具体接入位置见第 3 节。HWPX 的 XML 解析和共同渲染由本 Demo 实现；hwp.js 用于 HWP 5，rhwp 用于上述格式转换及算法参考。
+
+### 8.2 算法改编与测试样本参考
+
+| 参考项目／链接 | 参考内容与本地记录 |
 | --- | --- |
-| @hwp.js/parser | 0.0.4-alpha.0，HWP 5 解析，包含本项目兼容补丁 |
-| cfb | 1.2.2，OLE／CFB 读取 |
-| pako | 2.1.0，压缩数据处理 |
-| JSZip | 3.10.1，HWPX 容器读取 |
-| CryptoJS | 4.2.0，已覆盖保护方案的密码运算 |
-| @rhwp/core | 0.9.1，本地 WASM 旧格式转换及部分普通 HWP 5 兜底 |
-| rtf.js WMFJS／EMFJS | 3.0.9，静态矢量预览 |
-| rhwp 图表及密码算法改编 | 来源、固定提交和修改说明见 NOTICE |
+| [rhwp 密码算法源码（固定提交）](https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/crates/rhwp-password-crypto/src/lib.rs) | 参考其 HWP／HWPX 密码处理规则，改编到本项目 JS Worker；原始源码保存在 [password-crypto.rs](third_party/rhwp/password-crypto.rs) |
+| [rhwp 项目](https://github.com/edwardkim/rhwp)的旧版图表解析 | VtArchive 网格、字符串和对象归档参考；对应保留源码为 [grid.rs](third_party/rhwp/grid.rs)、[legacy_string.rs](third_party/rhwp/legacy_string.rs)、[legacy_presentation.rs](third_party/rhwp/legacy_presentation.rs)。SVG 图表绘制由本 Demo 实现 |
+| [hwp.js 公开 HWP 示例](https://github.com/hahnlee/hwp.js/blob/main/website/static/files/noori.hwp) | APK 内置 `sample.hwp` 的来源 |
+| [hwpxlib — neolord0/hwpxlib](https://github.com/neolord0/hwpxlib)／[reader_writer 测试样本](https://github.com/neolord0/hwpxlib/tree/main/testFile/reader_writer) | `samples/` 中 SimpleTable、SimplePicture、sample1 等公开 HWPX 样本的来源，用于验证自研 HWPX 阅读流程 |
+| [rhwp 项目](https://github.com/edwardkim/rhwp)的公开样本 | 密码、旧格式和图表专项测试样本；固定提交、文件链接及哈希见 [public-samples.json](test-reports/features-2026-11-23/public-samples.json) |
+
+### 8.3 版本、许可与归属
 
 完整来源、版本、修改说明和许可见 [third_party/NOTICE.txt](third_party/NOTICE.txt)、[tools/vendor-lock.json](tools/vendor-lock.json) 和 `app/src/main/assets/licenses/`。迁移和分发时需要保留对应许可与归属说明。
 
