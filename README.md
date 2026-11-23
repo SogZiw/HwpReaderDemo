@@ -248,6 +248,7 @@ app/src/main/
 app/src/debug/assets/reader/         仅 Debug 的故障脚本
 app/src/test/                       Kotlin 会话状态测试
 samples/                            额外公开样例，不自动打入 APK
+test-files/                         Downloads 测试副本，按 hwp / hwpx 分目录
 tools/                              依赖维护、测试及样例生成
 third_party/                        依赖归属、许可和改编源文件
 test-reports/                       测试日志、哈希、范围及截图
@@ -296,7 +297,7 @@ adb logcat -d -s HwpReaderDemo
 python3 tools/device-corpus.py manifest.json results.json --timeout 100
 ```
 
-脚本不自动上传文件或授权 URI。个人原件不要加入项目或提交到版本库。
+脚本不自动上传文件或授权 URI。本地语料见 [test-files/README.md](test-files/README.md)：45 个 HWP、49 个 HWPX，按格式分目录，并提供项目相对路径及 SHA-256 清单。实机运行前仍需准备设备可读副本。
 
 ### 5.3 故障注入
 
@@ -394,6 +395,6 @@ adb shell am start -S -f 0x10008000 -n com.example.hwpreader.demo/com.example.hw
 
 完整来源、版本、修改说明和许可见 [third_party/NOTICE.txt](third_party/NOTICE.txt)、[tools/vendor-lock.json](tools/vendor-lock.json) 和 `app/src/main/assets/licenses/`。迁移和分发时需要保留对应许可与归属说明。
 
-内置 HWP 为 hwp.js 公开示例，内置 HWPX 为本项目生成；`samples/` 的额外样例另附许可。个人测试原件未随项目打包。
+内置 HWP 为 hwp.js 公开示例，内置 HWPX 为本项目生成；`samples/` 的额外样例另附许可。本次按要求加入的 Downloads 测试副本位于 `test-files/`，随源码归档提供，不自动打入 APK。
 
 본 제품은 한글과컴퓨터의 글 문서 파일(.hwp) 공개 문서를 참고하여 개발하였습니다.
