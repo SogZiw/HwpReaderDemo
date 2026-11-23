@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hwpreader.ReaderSessionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-23T06:56:07.990Z" hostname="masahiro-cpu-m4.local" time="0.001">
+  <properties/>
+  <testcase name="passwordWaitPreservesRemainingActiveTime" classname="com.example.hwpreader.ReaderSessionTest" time="0.0"/>
+  <testcase name="automaticRecoveryIsBoundedPerDocument" classname="com.example.hwpreader.ReaderSessionTest" time="0.0"/>
+  <testcase name="duplicateOrStaleMessagesCannotExtendDeadline" classname="com.example.hwpreader.ReaderSessionTest" time="0.0"/>
+  <testcase name="readyDocumentHasNoLoadDeadline" classname="com.example.hwpreader.ReaderSessionTest" time="0.0"/>
+  <testcase name="lateSuccessCannotOverrideTimeoutOrCancellation" classname="com.example.hwpreader.ReaderSessionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

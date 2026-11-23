@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-20",
+  "device": "Pixel 5",
+  "android": "14",
+  "webview": "157.0.8103.50",
+  "package": "com.example.hwpreader.demo",
+  "apkSha256": "99de7f9f46bc7a451a90985d144c01ffcc8b8b34a60abfd32499ed82935bf1b2",
+  "files": 94,
+  "counts": {
+    "hwp": {
+      "error": 30,
+      "loaded": 14,
+      "timeout": 1
+    },
+    "hwpx": {
+      "loaded": 49
+    }
+  },
+  "errors": {
+    "DocInfo: Numbering: Reader is not EOF": 23,
+    "Unknown fill kind: 6": 1,
+    "DocInfo: BinData: Reader is not EOF": 2,
+    "Invalid EffectColorEffectKind value: 516": 1,
+    "此文件为分发、DRM 或证书保护文档，Demo 暂不支持。": 1,
+    "DocInfo: ColorFill: Reader is not EOF": 2
+  },
+  "testMethod": "Each document cold-launched in installed Demo with debug verify=true; 45 second deadline. Sources copied byte-for-byte into app private cache for automated access. Original Download files not changed. Existing smoke checks ran on loaded documents; text-only search skipped on documents without suitable text. Three HWPX first pages compared visually against embedded original previews; other graphical issues additionally reviewed in source XML and implementation. Loading success is not a fidelity pass. No reader code was changed.",
+  "scopeLimit": "No claim of pixel-by-pixel review of all pages. Runtime checks and displayed content/fidelity are reported separately."
+}

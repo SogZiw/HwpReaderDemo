@@ -1,0 +1,250 @@
+{
+  "checks": [
+    {
+      "id": 1000,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "nativePrintEnabled": true
+    },
+    {
+      "id": 1001,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": true
+      },
+      "copyBlocked": true,
+      "nativePrintEnabled": true
+    },
+    {
+      "id": 1002,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": true,
+        "allowPrint": false
+      },
+      "copyBlocked": false,
+      "nativePrintEnabled": false
+    },
+    {
+      "id": 1003,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": false
+      },
+      "copyBlocked": true,
+      "nativePrintEnabled": false
+    }
+  ],
+  "results": [
+    {
+      "id": 1000,
+      "file": "synthetic/distribution-0.hwp",
+      "format": "hwp",
+      "bytes": 0,
+      "status": "loaded",
+      "loaded": {
+        "type": "loaded",
+        "session": "73f36692-cc28-4379-a209-48fc8352e03f",
+        "pages": 1,
+        "format": "HWP",
+        "characters": 16,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": true,
+          "allowPrint": true
+        },
+        "warning": "分发文档 · 只读"
+      },
+      "smoke": {
+        "pages": 1,
+        "characters": 16,
+        "shapes": 0,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": true,
+          "allowPrint": true
+        },
+        "copyBlocked": false,
+        "printAllowed": true,
+        "equations": 0,
+        "metafiles": 0,
+        "notes": 0,
+        "layoutIssues": [],
+        "sourceTextPreserved": null,
+        "missingSourceText": [],
+        "columns": 1,
+        "pageWidth": 595.28,
+        "pageHeight": 841.88,
+        "captions": 0,
+        "tables": 0,
+        "images": 0,
+        "decodedImages": 0,
+        "search": true,
+        "crossSpan": null,
+        "textPreserved": true,
+        "safeQuery": true
+      },
+      "ms": 2161,
+      "log": "--------- beginning of main\n11-23 10:47:17.637 27817 27817 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":16,\"shapes\":0,\"permissions\":{\"readOnly\":true,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:47:17.651 27817 27817 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"73f36692-cc28-4379-a209-48fc8352e03f\",\"pages\":1,\"format\":\"HWP\",\"characters\":16,\"permissions\":{\"readOnly\":true,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"分发文档 · 只读\"}\n"
+    },
+    {
+      "id": 1001,
+      "file": "synthetic/distribution-1.hwp",
+      "format": "hwp",
+      "bytes": 0,
+      "status": "loaded",
+      "loaded": {
+        "type": "loaded",
+        "session": "21189efd-847c-4f76-ab85-ff08e9c6e2b8",
+        "pages": 1,
+        "format": "HWP",
+        "characters": 16,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": true
+        },
+        "warning": "分发文档 · 只读 · 禁止复制"
+      },
+      "smoke": {
+        "pages": 1,
+        "characters": 16,
+        "shapes": 0,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": true
+        },
+        "copyBlocked": true,
+        "printAllowed": true,
+        "equations": 0,
+        "metafiles": 0,
+        "notes": 0,
+        "layoutIssues": [],
+        "sourceTextPreserved": null,
+        "missingSourceText": [],
+        "columns": 1,
+        "pageWidth": 595.28,
+        "pageHeight": 841.88,
+        "captions": 0,
+        "tables": 0,
+        "images": 0,
+        "decodedImages": 0,
+        "search": true,
+        "crossSpan": null,
+        "textPreserved": true,
+        "safeQuery": true
+      },
+      "ms": 2087,
+      "log": "--------- beginning of main\n11-23 10:47:21.895 27966 27966 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":16,\"shapes\":0,\"permissions\":{\"readOnly\":true,\"allowCopy\":false,\"allowPrint\":true},\"copyBlocked\":true,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:47:21.910 27966 27966 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"21189efd-847c-4f76-ab85-ff08e9c6e2b8\",\"pages\":1,\"format\":\"HWP\",\"characters\":16,\"permissions\":{\"readOnly\":true,\"allowCopy\":false,\"allowPrint\":true},\"warning\":\"分发文档 · 只读 · 禁止复制\"}\n"
+    },
+    {
+      "id": 1002,
+      "file": "synthetic/distribution-2.hwp",
+      "format": "hwp",
+      "bytes": 0,
+      "status": "loaded",
+      "loaded": {
+        "type": "loaded",
+        "session": "13250a75-b708-44a2-8c44-ae73043455ac",
+        "pages": 1,
+        "format": "HWP",
+        "characters": 16,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": true,
+          "allowPrint": false
+        },
+        "warning": "分发文档 · 只读 · 禁止打印"
+      },
+      "smoke": {
+        "pages": 1,
+        "characters": 16,
+        "shapes": 0,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": true,
+          "allowPrint": false
+        },
+        "copyBlocked": false,
+        "printAllowed": false,
+        "equations": 0,
+        "metafiles": 0,
+        "notes": 0,
+        "layoutIssues": [],
+        "sourceTextPreserved": null,
+        "missingSourceText": [],
+        "columns": 1,
+        "pageWidth": 595.28,
+        "pageHeight": 841.88,
+        "captions": 0,
+        "tables": 0,
+        "images": 0,
+        "decodedImages": 0,
+        "search": true,
+        "crossSpan": null,
+        "textPreserved": true,
+        "safeQuery": true
+      },
+      "ms": 2143,
+      "log": "--------- beginning of main\n11-23 10:47:26.251 28113 28113 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":16,\"shapes\":0,\"permissions\":{\"readOnly\":true,\"allowCopy\":true,\"allowPrint\":false},\"copyBlocked\":false,\"printAllowed\":false,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:47:26.266 28113 28113 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"13250a75-b708-44a2-8c44-ae73043455ac\",\"pages\":1,\"format\":\"HWP\",\"characters\":16,\"permissions\":{\"readOnly\":true,\"allowCopy\":true,\"allowPrint\":false},\"warning\":\"分发文档 · 只读 · 禁止打印\"}\n"
+    },
+    {
+      "id": 1003,
+      "file": "synthetic/distribution-3.hwp",
+      "format": "hwp",
+      "bytes": 0,
+      "status": "loaded",
+      "loaded": {
+        "type": "loaded",
+        "session": "b43918c3-9928-49d4-b529-cd88db13af04",
+        "pages": 1,
+        "format": "HWP",
+        "characters": 16,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": false
+        },
+        "warning": "分发文档 · 只读 · 禁止复制 · 禁止打印"
+      },
+      "smoke": {
+        "pages": 1,
+        "characters": 16,
+        "shapes": 0,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": false
+        },
+        "copyBlocked": true,
+        "printAllowed": false,
+        "equations": 0,
+        "metafiles": 0,
+        "notes": 0,
+        "layoutIssues": [],
+        "sourceTextPreserved": null,
+        "missingSourceText": [],
+        "columns": 1,
+        "pageWidth": 595.28,
+        "pageHeight": 841.88,
+        "captions": 0,
+        "tables": 0,
+        "images": 0,
+        "decodedImages": 0,
+        "search": true,
+        "crossSpan": null,
+        "textPreserved": true,
+        "safeQuery": true
+      },
+      "ms": 2120,
+      "log": "--------- beginning of main\n11-23 10:47:30.501 28260 28260 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":16,\"shapes\":0,\"permissions\":{\"readOnly\":true,\"allowCopy\":false,\"allowPrint\":false},\"copyBlocked\":true,\"printAllowed\":false,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:47:30.519 28260 28260 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"b43918c3-9928-49d4-b529-cd88db13af04\",\"pages\":1,\"format\":\"HWP\",\"characters\":16,\"permissions\":{\"readOnly\":true,\"allowCopy\":false,\"allowPrint\":false},\"warning\":\"分发文档 · 只读 · 禁止复制 · 禁止打印\"}\n"
+    }
+  ]
+}

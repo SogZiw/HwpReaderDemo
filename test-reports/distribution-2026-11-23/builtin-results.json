@@ -1,0 +1,12 @@
+[
+  {
+    "sample": "sample.hwp",
+    "status": "loaded",
+    "log": "--------- beginning of main\n11-23 10:48:36.785 28621 28621 D HwpReaderDemo: SMOKE_OK {\"pages\":5,\"characters\":1570,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":5,\"images\":4,\"decodedImages\":4,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:48:36.810 28621 28621 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"db1057b0-27a1-453c-8cb6-5133307f8270\",\"pages\":5,\"format\":\"HWP\",\"characters\":1570,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "sample": "sample.hwpx",
+    "status": "loaded",
+    "log": "--------- beginning of main\n11-23 10:48:38.584 28743 28743 D HwpReaderDemo: SMOKE_OK {\"pages\":3,\"characters\":791,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.89,\"captions\":0,\"tables\":1,\"images\":1,\"decodedImages\":1,\"search\":true,\"crossSpan\":true,\"textPreserved\":true,\"safeQuery\":true} @434\n11-23 10:48:38.617 28743 28743 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"43710065-d220-432b-b2fa-ad781fd0382b\",\"pages\":3,\"format\":\"HWPX\",\"characters\":791,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  }
+]

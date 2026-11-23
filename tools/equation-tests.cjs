@@ -1,0 +1,13 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const context={};vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(__dirname,'../app/src/main/assets/reader/equations.js'),'utf8'),context);
+const parse=context.Equations.ast;
+const expression=parse('{"123"} over {123 sqrt {3466}} sum _{34} ^{12}');
+assert.equal(expression.items[0].tag,'mfrac');
+assert.equal(expression.items[0].items[1].items[1].tag,'msqrt');
+assert.equal(expression.items[1].tag,'msubsup');
+assert.equal(expression.items[1].items[0].text,'∑');
+assert.equal(parse('(a+b) ^{2} =a ^{2} +2ab+b ^{2}').items[5].tag,'mo');
+assert.throws(()=>parse('sqrt {1 over {x}'));
+assert.throws(()=>parse('x^'));
+assert.equal(parse('pmatrix {a & b # c & d}').items[0].items[1].tag,'mtable');
+console.log(JSON.stringify({fractions:true,roots:true,scripts:true,matrices:true,malformedRejected:true}));

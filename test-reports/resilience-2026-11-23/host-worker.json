@@ -1,0 +1,5 @@
+{
+  "command": "node tools/worker-tests.cjs",
+  "ok": true,
+  "checks": 10
+}

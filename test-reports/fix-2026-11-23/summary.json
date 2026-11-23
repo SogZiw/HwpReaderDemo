@@ -1,0 +1,53 @@
+{
+  "total": 94,
+  "formats": {
+    "hwp": {
+      "loaded": 44,
+      "error": 1
+    },
+    "hwpx": {
+      "loaded": 49
+    }
+  },
+  "unexpectedErrors": [],
+  "timeouts": 0,
+  "warnings": [
+    {
+      "id": 20,
+      "file": "HWPTest/sample_hwp/basic/차트.hwp",
+      "warning": "旧版图表按原始数据表显示，原图样式未还原"
+    },
+    {
+      "id": 84,
+      "file": "HWPTest/testFileHWPX/reader_writer/SimpleVideo.hwpx",
+      "warning": "视频源仅链接外部 Windows 文件，文档未嵌入视频；已显示封面"
+    }
+  ],
+  "hwpxSourceTextVerified": 49,
+  "layoutIssueFiles": [],
+  "bigFile": {
+    "file": "HWPTest/sample_hwp/big_file.hwp",
+    "bytes": 10602496,
+    "ms": 8651,
+    "loaded": {
+      "type": "loaded",
+      "session": "1a433de3-4cf2-4610-82a1-9df899426738",
+      "pages": 16384,
+      "format": "HWP",
+      "characters": 1769472,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 16384,
+      "characters": 1769472,
+      "virtual": true,
+      "mountedPages": 3,
+      "search": true,
+      "lastPage": true,
+      "textPreserved": true,
+      "safeQuery": true,
+      "images": 1,
+      "decodedImages": 1
+    }
+  }
+}

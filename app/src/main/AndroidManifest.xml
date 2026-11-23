@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="HWP 阅读 Demo" android:theme="@style/AppTheme" android:icon="@drawable/ic_document"
+        android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <activity android:name=".HwpReaderActivity" android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="application/x-hwp"/>
+                <data android:mimeType="application/haansofthwp"/>
+                <data android:mimeType="application/vnd.hancom.hwp"/>
+                <data android:mimeType="application/vnd.hancom.hwpx"/>
+                <data android:mimeType="application/haansofthwpx"/>
+                <data android:mimeType="application/hwp+zip"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

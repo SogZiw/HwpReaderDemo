@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src blob: data: 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>本地文档阅读</title>
+  <link rel="stylesheet" href="reader.css">
+</head>
+<body>
+  <main id="pages" aria-label="文档页面"></main>
+  <div id="error" role="alert" hidden></div>
+  <script src="cfb.js"></script>
+  <script src="pako.min.js"></script>
+  <script src="jszip.min.js"></script>
+  <script src="crypto-js.js"></script>
+  <script src="distribution.js"></script>
+  <script src="worker-jobs.js"></script>
+  <script src="password.js"></script>
+  <script src="hwp-parser.js"></script>
+  <script src="model.js"></script>
+  <script src="legacy-charts.js"></script>
+  <script src="legacy-chart-archive.js"></script>
+  <script src="legacy-chart-renderer.js"></script>
+  <script src="WMFJS.bundle.js"></script>
+  <script src="EMFJS.bundle.js"></script>
+  <script src="metafiles.js"></script>
+  <script src="equations.js"></script>
+  <script src="hwp-adapter.js"></script>
+  <script src="hwpx-parser.js"></script>
+  <script src="hml-resources.js"></script>
+  <script src="drawing.js"></script>
+  <script src="large-document.js"></script>
+  <script src="reader.js"></script>
+</body>
+</html>

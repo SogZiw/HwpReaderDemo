@@ -1,0 +1,8 @@
+{
+  "wrongPasswordRetry": true,
+  "cancelled": true,
+  "log": "--------- beginning of main\n11-23 12:00:33.426 31986 31986 I HwpReaderDemo: PASSWORD_REQUIRED retry=false\n11-23 12:00:36.540 31986 31986 I HwpReaderDemo: PASSWORD_REQUIRED retry=true\n11-23 12:00:39.491 31986 31986 I HwpReaderDemo: PASSWORD_CANCELLED\n",
+  "switchWhileAwaitingPassword": true,
+  "sameProcess": true,
+  "switchLog": "--------- beginning of main\n11-23 12:00:41.451 32250 32250 I HwpReaderDemo: PASSWORD_REQUIRED retry=false\n11-23 12:00:42.437 32250 32250 D HwpReaderDemo: SMOKE_OK {\"pages\":3,\"characters\":791,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.89,\"captions\":0,\"tables\":1,\"images\":1,\"decodedImages\":1,\"search\":true,\"crossSpan\":true,\"textPreserved\":true,\"safeQuery\":true} @457\n11-23 12:00:42.453 32250 32250 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"9715c745-0b4a-4e23-abc7-2b3d41b06ab2\",\"pages\":3,\"format\":\"HWPX\",\"characters\":791,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+}

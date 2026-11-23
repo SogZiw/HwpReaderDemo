@@ -1,0 +1,95 @@
+﻿ID,Download相对路径,格式,文件字节,加载结果,耗时毫秒,渲染页数,正文字符数,表格数,图片数,成功解码图片,搜索检查,原文保留检查,特殊搜索字符串检查,运行时提示,错误信息,显示复查与代码核查说明
+0,HWPTest/sample_hwp/basic/blank.hwp,hwp,14848,无法打开,1990,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+1,HWPTest/sample_hwp/basic/etc.hwp,hwp,12800,无法打开,1798,,,,,,,,,,Unknown fill kind: 6,
+2,HWPTest/sample_hwp/basic/ole.hwp,hwp,238080,无法打开,962,,,,,,,,,,DocInfo: BinData: Reader is not EOF,
+3,HWPTest/sample_hwp/basic/각주미주.hwp,hwp,15360,无法打开,1779,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+4,HWPTest/sample_hwp/basic/구버전(5.0.2.2) Picture 컨트롤.hwp,hwp,96256,无法打开,211,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+5,HWPTest/sample_hwp/basic/그림.hwp,hwp,25088,无法打开,1849,,,,,,,,,,Invalid EffectColorEffectKind value: 516,
+6,HWPTest/sample_hwp/basic/글상자-압축.hwp,hwp,12288,无法打开,1823,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+7,HWPTest/sample_hwp/basic/글상자.hwp,hwp,16384,无法打开,1992,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+8,HWPTest/sample_hwp/basic/글자겹침.hwp,hwp,11776,无法打开,1494,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+9,HWPTest/sample_hwp/basic/다각형.hwp,hwp,11776,无法打开,1901,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+10,HWPTest/sample_hwp/basic/덧말.hwp,hwp,15360,无法打开,1875,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+11,HWPTest/sample_hwp/basic/머리글꼬리글.hwp,hwp,19968,无法打开,1836,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+12,HWPTest/sample_hwp/basic/묶음.hwp,hwp,8192,无法打开,1843,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+13,HWPTest/sample_hwp/basic/문단번호 1-10 수준.hwp,hwp,17408,已加载（不代表显示完整）,1862,1,40,0,0,0,True,True,True,,,
+14,HWPTest/sample_hwp/basic/바탕쪽.hwp,hwp,11776,无法打开,1901,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+15,HWPTest/sample_hwp/basic/새번호지정.hwp,hwp,18432,无法打开,1868,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+16,HWPTest/sample_hwp/basic/선-사각형-타원.hwp,hwp,12288,无法打开,1848,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+17,HWPTest/sample_hwp/basic/수식.hwp,hwp,11776,无法打开,1854,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+18,HWPTest/sample_hwp/basic/숨은설명.hwp,hwp,15360,无法打开,1856,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+19,HWPTest/sample_hwp/basic/이미지추가.hwp,hwp,16896,无法打开,1863,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+20,HWPTest/sample_hwp/basic/차트.hwp,hwp,7168,无法打开,2058,,,,,,,,,,DocInfo: BinData: Reader is not EOF,
+21,HWPTest/sample_hwp/basic/책갈피.hwp,hwp,11776,无法打开,1997,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+22,HWPTest/sample_hwp/basic/페이지숨김.hwp,hwp,18944,无法打开,1493,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+23,HWPTest/sample_hwp/basic/표.hwp,hwp,17408,无法打开,2004,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+24,HWPTest/sample_hwp/basic/필드-누름틀.hwp,hwp,13312,无法打开,2005,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+25,HWPTest/sample_hwp/basic/필드.hwp,hwp,15360,无法打开,1846,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+26,HWPTest/sample_hwp/basic/호-곡선.hwp,hwp,12288,无法打开,1865,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+27,HWPTest/sample_hwp/big_file.hwp,hwp,10602496,45 秒未完成加载,45135,,,,,,,,,,,复查：首轮验证等待 45 秒超时；关闭自动验证后的正常打开复测仍等待 45 秒超时。
+28,HWPTest/sample_hwp/blank.hwp,hwp,22528,已加载（不代表显示完整）,2335,1,0,0,0,0,,True,True,,,
+29,HWPTest/sample_hwp/changing-image.hwp,hwp,81920,已加载（不代表显示完整）,1814,1,0,1,1,1,,True,True,,,
+30,HWPTest/sample_hwp/changing-paragraph-text.hwp,hwp,8704,已加载（不代表显示完整）,1834,1,16,0,0,0,True,True,True,,,
+31,HWPTest/sample_hwp/distribution.hwp,hwp,74752,无法打开,1880,,,,,,,,,,此文件为分发、DRM 或证书保护文档，Demo 暂不支持。,
+32,HWPTest/sample_hwp/extracting_ParaHead.hwp,hwp,16384,无法打开,1809,,,,,,,,,,DocInfo: ColorFill: Reader is not EOF,
+33,HWPTest/sample_hwp/finding-all-field.hwp,hwp,12288,已加载（不代表显示完整）,1857,1,813,0,0,0,True,True,True,部分特殊对象未绘制,,
+34,HWPTest/sample_hwp/finding-control.hwp,hwp,17408,已加载（不代表显示完整）,1844,1,6,6,0,0,,True,True,,,
+35,HWPTest/sample_hwp/getting_clickhere_text.hwp,hwp,13312,无法打开,1844,,,,,,,,,,DocInfo: Numbering: Reader is not EOF,
+36,HWPTest/sample_hwp/inserting_image_cell.hwp,hwp,13312,已加载（不代表显示完整）,1967,1,0,1,0,0,,True,True,,,
+37,HWPTest/sample_hwp/making_caption.hwp,hwp,9216,无法打开,1813,,,,,,,,,,DocInfo: ColorFill: Reader is not EOF,
+38,HWPTest/sample_hwp/merging-cell.hwp,hwp,10752,已加载（不代表显示完整）,1755,1,147,1,0,0,True,True,True,,,
+39,HWPTest/sample_hwp/removing-row.hwp,hwp,9216,已加载（不代表显示完整）,1836,1,0,1,0,0,,True,True,,,
+40,HWPTest/sample_hwp/setting-celltext-by-field.hwp,hwp,9728,已加载（不代表显示完整）,1876,1,0,2,0,0,,True,True,,,
+41,HWPTest/sample_hwp/setting-fields.hwp,hwp,9728,已加载（不代表显示完整）,1936,1,207,0,0,0,True,True,True,部分特殊对象未绘制,,
+42,HWPTest/sample_hwp/source.hwp,hwp,9216,已加载（不代表显示完整）,1840,1,35,1,0,0,True,True,True,,,
+43,HWPTest/sample_hwp/target.hwp,hwp,8704,已加载（不代表显示完整）,1866,1,25,0,0,0,True,True,True,,,
+44,HWPTest/testFileHWPX/error/20230413/test.hwpx,hwpx,41547,已加载（不代表显示完整）,1791,2,708,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+45,HWPTest/testFileHWPX/error/20230426/HwpxTest1.hwpx,hwpx,62331,已加载（不代表显示完整）,1859,5,1347,1,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：OLE 对象（基于源 XML 与代码核查）
+46,HWPTest/testFileHWPX/error/20230728/test.hwpx,hwpx,254768,已加载（不代表显示完整）,2902,68,20614,44,1,1,True,True,True,超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+47,HWPTest/testFileHWPX/error/20230809/test.hwpx,hwpx,21345,已加载（不代表显示完整）,1917,1,73,0,0,0,True,True,True,页眉页脚暂未重复排版,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；页眉页脚未重复排版
+48,HWPTest/testFileHWPX/error/20230818/test.hwpx,hwpx,96781,已加载（不代表显示完整）,1874,3,5915,8,0,0,True,True,True,超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：连接线（基于源 XML 与代码核查）；组合对象变换和坐标未完整保留
+49,HWPTest/testFileHWPX/error/20231219/test1.hwpx,hwpx,27012,已加载（不代表显示完整）,1853,1,26,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+50,HWPTest/testFileHWPX/error/20240305/2022.hwpx,hwpx,18564,已加载（不代表显示完整）,1979,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+51,HWPTest/testFileHWPX/error/20240416/presentation오류.hwpx,hwpx,15570,已加载（不代表显示完整）,1826,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+52,HWPTest/testFileHWPX/error/20240626/no_manifest.hwpx,hwpx,15371,已加载（不代表显示完整）,1942,7,1360,1,0,0,True,True,True,超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+53,HWPTest/testFileHWPX/error/20240919/테스트문서.hwpx,hwpx,21917,已加载（不代表显示完整）,1855,1,115,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+54,HWPTest/testFileHWPX/error/20241104/mot.hwpx,hwpx,536865,已加载（不代表显示完整）,1843,3,1051,4,6,6,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+55,HWPTest/testFileHWPX/error/20250523/프로젝트 계획서.hwpx,hwpx,211658,已加载（不代表显示完整）,1885,4,392,2,1,1,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+56,HWPTest/testFileHWPX/error/20250808/2015년_12월_재난안전종합상황_분석_및_전망.hwpx,hwpx,7452328,已加载（不代表显示完整）,4398,77,49405,110,75,75,True,True,True,页眉页脚暂未重复排版；超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；直线/多边形使用通用方框代替，未保留原几何形状；组合对象变换和坐标未完整保留；含图注；当前适配器未处理图注；页眉页脚未重复排版
+57,HWPTest/testFileHWPX/error/20251107/test.hwpx,hwpx,157278,已加载（不代表显示完整）,2416,31,17863,31,0,0,True,True,True,超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+58,HWPTest/testFileHWPX/error/20251107/test_re.hwpx,hwpx,73693,已加载（不代表显示完整）,2344,31,17863,31,0,0,True,True,True,超长表格或对象按完整内容显示,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+59,HWPTest/testFileHWPX/error/20260805/고정폭빈칸_문서.hwpx,hwpx,13290,已加载（不代表显示完整）,1836,1,15,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+60,HWPTest/testFileHWPX/error/20260806/표전체 형광색인 경우 오류.hwpx,hwpx,28910,已加载（不代表显示完整）,1820,1,56,2,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+61,HWPTest/testFileHWPX/reader_writer/ChangeTrack.hwpx,hwpx,13027,已加载（不代表显示完整）,1853,1,10,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+62,HWPTest/testFileHWPX/reader_writer/HeaderFooter.hwpx,hwpx,12798,已加载（不代表显示完整）,1509,1,0,0,0,0,,True,True,页眉页脚暂未重复排版,,复查：页眉和页脚文本未显示，Demo 有范围提示。；方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；页眉页脚未重复排版
+63,HWPTest/testFileHWPX/reader_writer/MultiColumn.hwpx,hwpx,25049,已加载（不代表显示完整）,1813,6,140,0,0,0,,True,True,,,复查：原始预览为三栏；Demo 显示单栏并拆为 6 页。页面方向也与预览不一致。；方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+64,HWPTest/testFileHWPX/reader_writer/PageFunctions.hwpx,hwpx,13563,已加载（不代表显示完整）,1814,1,17,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+65,HWPTest/testFileHWPX/reader_writer/PageSize_Margin.hwpx,hwpx,11135,已加载（不代表显示完整）,1824,1,0,0,0,0,,True,True,,,
+66,HWPTest/testFileHWPX/reader_writer/SimpleArc.hwpx,hwpx,14344,已加载（不代表显示完整）,1808,1,11,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：弧线（基于源 XML 与代码核查）
+67,HWPTest/testFileHWPX/reader_writer/SimpleButtons.hwpx,hwpx,13307,已加载（不代表显示完整）,1880,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：按钮、复选按钮、单选按钮（基于源 XML 与代码核查）
+68,HWPTest/testFileHWPX/reader_writer/SimpleComboBox.hwpx,hwpx,13130,已加载（不代表显示完整）,1848,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：组合框（基于源 XML 与代码核查）
+69,HWPTest/testFileHWPX/reader_writer/SimpleCompose.hwpx,hwpx,12327,已加载（不代表显示完整）,1870,1,1,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+70,HWPTest/testFileHWPX/reader_writer/SimpleConnectLine.hwpx,hwpx,13914,已加载（不代表显示完整）,1778,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：连接线（基于源 XML 与代码核查）
+71,HWPTest/testFileHWPX/reader_writer/SimpleContainer.hwpx,hwpx,49136,已加载（不代表显示完整）,1848,1,0,0,2,2,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；直线/多边形使用通用方框代替，未保留原几何形状；组合对象变换和坐标未完整保留
+72,HWPTest/testFileHWPX/reader_writer/SimpleCurve.hwpx,hwpx,19874,已加载（不代表显示完整）,1884,1,0,0,0,0,,True,True,,,复查：原始预览有曲线图形；Demo 页面为空白。；方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：曲线（基于源 XML 与代码核查）
+73,HWPTest/testFileHWPX/reader_writer/SimpleDutmal.hwpx,hwpx,12515,已加载（不代表显示完整）,1832,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：注音文字（基于源 XML 与代码核查）
+74,HWPTest/testFileHWPX/reader_writer/SimpleEdit.hwpx,hwpx,13023,已加载（不代表显示完整）,1830,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：编辑控件（基于源 XML 与代码核查）
+75,HWPTest/testFileHWPX/reader_writer/SimpleEllipse.hwpx,hwpx,20562,已加载（不代表显示完整）,1833,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+76,HWPTest/testFileHWPX/reader_writer/SimpleEquation.hwpx,hwpx,12416,已加载（不代表显示完整）,1832,1,46,0,0,0,True,True,True,公式以源表达式显示,,复查：仅显示公式源表达式，没有数学排版。；方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；公式以源表达式显示
+77,HWPTest/testFileHWPX/reader_writer/SimpleLine.hwpx,hwpx,19196,已加载（不代表显示完整）,1834,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；直线/多边形使用通用方框代替，未保留原几何形状
+78,HWPTest/testFileHWPX/reader_writer/SimpleOLE.hwpx,hwpx,35177,已加载（不代表显示完整）,1504,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：OLE 对象（基于源 XML 与代码核查）
+79,HWPTest/testFileHWPX/reader_writer/SimplePicture.hwpx,hwpx,79447,已加载（不代表显示完整）,1849,1,0,0,1,1,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+80,HWPTest/testFileHWPX/reader_writer/SimplePolygon.hwpx,hwpx,29697,已加载（不代表显示完整）,1827,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；直线/多边形使用通用方框代替，未保留原几何形状
+81,HWPTest/testFileHWPX/reader_writer/SimpleRectangle.hwpx,hwpx,13566,已加载（不代表显示完整）,1834,1,3,0,0,0,True,True,True,,,复查：原始预览图注“그림 1”缺失；框内文字位置与预览不一致。页面方向也与预览不一致。；方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；含图注；当前适配器未处理图注
+82,HWPTest/testFileHWPX/reader_writer/SimpleTable.hwpx,hwpx,13315,已加载（不代表显示完整）,1829,1,5,1,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+83,HWPTest/testFileHWPX/reader_writer/SimpleTextArt.hwpx,hwpx,14928,已加载（不代表显示完整）,1826,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：艺术字（基于源 XML 与代码核查）
+84,HWPTest/testFileHWPX/reader_writer/SimpleVideo.hwpx,hwpx,121568,已加载（不代表显示完整）,1832,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符；实现中未绘制/未完整处理：视频（基于源 XML 与代码核查）
+85,HWPTest/testFileHWPX/reader_writer/sample1.hwpx,hwpx,16165,已加载（不代表显示完整）,1843,1,15,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+86,HWPTest/testFileHWPX/tool/blank.hwpx,hwpx,6397,已加载（不代表显示完整）,1797,1,0,0,0,0,,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+87,HWPTest/testFileHWPX/tool/finder/TestFinder.hwpx,hwpx,18376,已加载（不代表显示完整）,1915,2,19,3,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+88,HWPTest/testFileHWPX/tool/textextractor/ParaHead.hwpx,hwpx,22304,已加载（不代表显示完整）,1864,2,117,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+89,HWPTest/testFileHWPX/tool/textextractor/RectInPara.hwpx,hwpx,17639,已加载（不代表显示完整）,1806,1,140,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+90,HWPTest/testFileHWPX/tool/textextractor/RectInRect.hwpx,hwpx,15678,已加载（不代表显示完整）,1891,1,33,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+91,HWPTest/testFileHWPX/tool/textextractor/Table.hwpx,hwpx,19919,已加载（不代表显示完整）,1528,1,55,1,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+92,HWPTest/testFileHWPX/tool/textextractor/multipara.hwpx,hwpx,62949,已加载（不代表显示完整）,1812,2,1120,0,0,0,True,True,True,,,方向处理分支将源竖版宽高交换；抽查原始预览已确认方向不符
+93,example.hwp,hwp,736768,已加载（不代表显示完整）,1872,2,2485,0,2,2,True,True,True,部分图像格式暂不支持,,

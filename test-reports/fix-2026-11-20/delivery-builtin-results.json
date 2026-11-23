@@ -1,0 +1,12 @@
+[
+  {
+    "sample": "sample.hwp",
+    "log": "--------- beginning of main\n11-20 18:39:05.843 21637 21637 D HwpReaderDemo: SMOKE_OK {\"pages\":5,\"characters\":1570,\"shapes\":0,\"sourceTextPreserved\":null,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":5,\"images\":4,\"decodedImages\":4,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @330\n11-20 18:39:05.877 21637 21637 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"ebe1bdc6-9acb-4f6b-b7f6-a9464bd21f6d\",\"pages\":5,\"format\":\"HWP\",\"characters\":1570,\"warning\":\"\"}\n",
+    "status": "loaded"
+  },
+  {
+    "sample": "sample.hwpx",
+    "log": "--------- beginning of main\n11-20 18:39:07.636 21798 21798 D HwpReaderDemo: SMOKE_OK {\"pages\":3,\"characters\":791,\"shapes\":0,\"sourceTextPreserved\":true,\"missingSourceText\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.89,\"captions\":0,\"tables\":1,\"images\":1,\"decodedImages\":1,\"search\":true,\"crossSpan\":true,\"textPreserved\":true,\"safeQuery\":true} @330\n11-20 18:39:07.666 21798 21798 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"b9033c77-831a-4604-a255-408aab50ed8f\",\"pages\":3,\"format\":\"HWPX\",\"characters\":791,\"warning\":\"\"}\n",
+    "status": "loaded"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "fractions": true,
+  "roots": true,
+  "scripts": true,
+  "matrices": true,
+  "malformedRejected": true
+}

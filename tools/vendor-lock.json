@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "file": "cfb.js",
+      "url": "https://cdn.jsdelivr.net/npm/cfb@1.2.2/dist/cfb.js",
+      "sha256": "239f7fb9d74b0cb8856e0b1a182bdf310f9fcf5b75a958e84edc158cd387dab2"
+    },
+    {
+      "file": "pako.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js",
+      "sha256": "ede2693a4a6a5126b9d35669062b358ecab6ae7b9b86a1cf302feb45a8514907"
+    },
+    {
+      "file": "jszip.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js",
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+    },
+    {
+      "file": "WMFJS.bundle.js",
+      "url": "https://cdn.jsdelivr.net/npm/rtf.js@3.0.9/dist/WMFJS.bundle.js",
+      "sha256": "cbd48013970b474e82fc7515b6977ca79d620ea65688d4c4f996d87973ba6ed3"
+    },
+    {
+      "file": "EMFJS.bundle.js",
+      "url": "https://cdn.jsdelivr.net/npm/rtf.js@3.0.9/dist/EMFJS.bundle.js",
+      "sha256": "9741a1333cefa735144e77bca43ef6f1fc22d3e71a237a3d5700da343d1fc204"
+    },
+    {
+      "file": "WMFJS.bundle.js.map",
+      "url": "https://cdn.jsdelivr.net/npm/rtf.js@3.0.9/dist/WMFJS.bundle.js.map",
+      "sha256": "6821db5950977617e90c7856f47d9b3716849a495f305682cc2ba66a5011283e"
+    },
+    {
+      "file": "EMFJS.bundle.js.map",
+      "url": "https://cdn.jsdelivr.net/npm/rtf.js@3.0.9/dist/EMFJS.bundle.js.map",
+      "sha256": "15d2989db3079c93d715c93874780d3950b895c1eb6037c537abdb2b680887c7"
+    },
+    {
+      "file": "crypto-js.js",
+      "url": "https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.js",
+      "sha256": "ee02257ffbaf0a9b481c7039b0f3bb20c360c9674fe4be8b38ae709b2ea59bbe"
+    }
+  ],
+  "parser": {
+    "version": "0.0.4-alpha.0",
+    "url": "https://registry.npmjs.org/@hwp.js/parser/-/parser-0.0.4-alpha.0.tgz",
+    "integrity": "sha512-MHRCRu2IyGp6OpcuNiijAGZRkHZIaZusXYLu7AOEyXzvJfQde3tfuBZITZr0ZLDYNtoAAkKQ/0BZVN/o4Qor+Q==",
+    "adaptedSha256": "53263a208d792267b1136d0202c08561cb66ae1549da072d275f991fa78268e5",
+    "patchedSha256": "5e598104de1508a058623f268fc28e287587cbc55f3bd6ed54d9cedac46b50ce"
+  },
+  "rhwpCore": {
+    "version": "0.9.1",
+    "url": "https://registry.npmjs.org/@rhwp/core/-/core-0.9.1.tgz",
+    "integrity": "sha512-jMLOubFHp5MocnbyYNoPwcUDAIqzF47hBv420i0prnN4+hk0iX/f4RPv0NotDOtQcANaFjJe8/mo64aQsZ73XA==",
+    "files": {
+      "rhwp.js": "75eaf7070854c66d31b2223558a4128d05d00dff46b51051ec943cfe250c6365",
+      "rhwp_bg.wasm": "e2e56dfd387ffee5b0995d23e4a0086001407f12a045820eb61bd6a506c9abc1"
+    }
+  }
+}

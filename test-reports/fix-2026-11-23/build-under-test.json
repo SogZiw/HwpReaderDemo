@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-23",
+  "apkSha256": "d5d8c1ea0179b8ed7ba0e9b9f32a8691294839094f124bb37c7953df4957e248",
+  "bytes": 2879738,
+  "device": "Pixel 5",
+  "android": "14",
+  "package": "com.example.hwpreader.demo",
+  "readerHashes": {
+    "assets/reader/cfb.js": "239f7fb9d74b0cb8856e0b1a182bdf310f9fcf5b75a958e84edc158cd387dab2",
+    "assets/reader/jszip.min.js": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+    "assets/reader/pako.min.js": "ede2693a4a6a5126b9d35669062b358ecab6ae7b9b86a1cf302feb45a8514907",
+    "assets/reader/hwp-parser.js": "cda3d5c568af448bd3662d5972ba3ebe1b71e78655d75e8e538366d9d07751b0",
+    "assets/reader/large-document.js": "9a7d2aafbdc3d45c2dcdbbf52d86f9980f657adc20cd9ee28dfadb5f91d97bf3",
+    "assets/reader/EMFJS.bundle.js": "9741a1333cefa735144e77bca43ef6f1fc22d3e71a237a3d5700da343d1fc204",
+    "assets/reader/WMFJS.bundle.js": "cbd48013970b474e82fc7515b6977ca79d620ea65688d4c4f996d87973ba6ed3",
+    "assets/reader/drawing.js": "8d92f9a014090747629363e5d33faf7202f75961e07a7fefe5b8f38eee39270f",
+    "assets/reader/metafiles.js": "66392e22070db57f6ba5f8c604ac5aa3ec863a5fb96339062d7fddc48fce66a8",
+    "assets/reader/hwpx-parser.js": "0ab939921d4fb41093e0449b5789bc8afc44b4acfac9036bdc4a03852824dc00",
+    "assets/reader/EMFJS.bundle.js.map": "15d2989db3079c93d715c93874780d3950b895c1eb6037c537abdb2b680887c7",
+    "assets/reader/WMFJS.bundle.js.map": "6821db5950977617e90c7856f47d9b3716849a495f305682cc2ba66a5011283e",
+    "assets/reader/equations.js": "20b14899df2110a4850e308a7488d4c516532fb5bfc064b40a3e552e592c5277",
+    "assets/reader/hwp-adapter.js": "ba1ee9b72de58ca01c57b82d7b645391f47ba2de1c4ac882b90f5bf1e0caf8b7",
+    "assets/reader/index.html": "3064958237b66e8d4d42a199dfffe92041c040ff6f36cbb254a9b206b8aa38e2",
+    "assets/reader/legacy-charts.js": "0aac377c4a95f0bec8316852792b8af83ca555941cf5f62f060d417799b3f36e",
+    "assets/reader/model.js": "cc2c502ad8aca4ba90f03ad164489581d1c18b04cdd2b0595caf94a4602f1fe3",
+    "assets/reader/reader.css": "b36172ffb9b88cd26021ced12b10ddc2ebe334f65573f91bcc7858de73ca7609",
+    "assets/reader/reader.js": "26e82f81274be629ccf9a5984ebd87536a454573596979f374a8c8d4da0df431"
+  },
+  "lintCounts": {
+    "Error": 0,
+    "Warning": 8
+  }
+}

@@ -1,0 +1,85 @@
+Third-party components bundled in HwpReaderDemo
+
+@hwp.js/parser 0.0.4-alpha.0
+  https://github.com/hahnlee/hwp.js
+  https://registry.npmjs.org/@hwp.js/parser/-/parser-0.0.4-alpha.0.tgz
+  Copyright Han Lee and other contributors. Apache-2.0.
+  package/LICENSE is preserved as hwp.js/PARSER-LICENSE.
+  Modifications: ESM imports use the local CFB/pako browser globals; exports are
+  assigned to HWPParser. Inflate uses an indirection for the demo's expansion
+  limit. The source map URL was removed. Record compatibility fixes are applied
+  reproducibly by tools/patch-parser.py: ten-level numbering starts in 5.0.3,
+  storage binary extensions, bit-mask/composite fills with bounded extensions,
+  numeric effect codes, extended-char record bounds, and trailing caption/list
+  paragraph preservation. Both adapted and patched SHA-256 are pinned.
+  Original distribution sources are preserved in hwp.js/parser-index.js.map.
+
+cfb 1.2.2 (includes crc32)
+  https://github.com/SheetJS/js-cfb
+  Copyright 2013-present SheetJS. Apache-2.0. See cfb-LICENSE.txt.
+
+pako 2.1.0
+  https://github.com/nodeca/pako
+  Copyright 2014-2017 Vitaly Puzrin, Andrei Tuputcyn.
+  MIT/Zlib; distribution notice retained. See pako-LICENSE.txt.
+
+JSZip 3.10.1
+  https://github.com/Stuk/jszip
+  Copyright 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger,
+  António Afonso. Used under the MIT alternative of MIT OR GPL-3.0-or-later.
+  See jszip-LICENSE.txt. Its embedded dependencies retain their notices.
+
+Bundled sample.hwp (public sample)
+  https://github.com/hahnlee/hwp.js/blob/main/website/static/files/noori.hwp
+  The upstream repository license, NOTICE and AUTHORS are in hwp.js/.
+
+Additional fixtures in samples/ (not bundled in the APK)
+  https://github.com/neolord0/hwpxlib/tree/main/testFile/reader_writer
+  SimpleTable.hwpx, SimplePicture.hwpx, sample1.hwpx.
+  Upstream license: samples/hwpxlib-LICENSE.txt.
+
+The HWPX adapter, shared model, search and Android integration were written for
+this demo, using the public dependencies credited here. No private code from
+the inspected application is included.
+
+rtf.js 3.0.9 — WMFJS and EMFJS bundles and their source maps
+  https://github.com/tbluemel/rtf.js
+  Copyright (c) 2015 Thomas Bluemel; (c) 2016 Tom Zoehner;
+  (c) 2018 Thomas Bluemel. MIT. See rtf-js-LICENSE.txt.
+  Public npm distribution, unchanged; SHA-256 pinned in tools/vendor-lock.json.
+
+rhwp VtArchive grid parsing (JavaScript adaptation)
+  https://github.com/edwardkim/rhwp/blob/main/src/ole_chart/grid.rs
+  https://github.com/edwardkim/rhwp/blob/main/src/ole_chart/legacy_string.rs
+  Copyright (c) 2025-2026 Edward Kim. MIT. See rhwp/LICENSE.
+  Original sources are preserved under third_party/rhwp. Adaptation adds bounds,
+  VtInteger values and an original-grid table view. It does not infer series
+  orientation or reproduce legacy chart styling.
+  Additional bounded chart archive parsing now adapts legacy_presentation.rs;
+  SVG chart rendering is implemented in this Demo. The original grid fallback
+  is retained for unsupported archive versions and chart types.
+
+CryptoJS 4.2.0
+  https://github.com/brix/crypto-js
+  Copyright (c) 2009-2013 Jeff Mott; (c) 2013-2016 Evan Vosberg.
+  MIT. See crypto-js-LICENSE.txt. Unchanged public crypto-js.js bundle,
+  SHA-256 pinned in tools/vendor-lock.json. Used for distribution AES-128 ECB,
+  HWP5 AES-CFB1, HWP3 DES-ECB and HWPX AES-CBC/PBKDF2 password reading.
+
+Hancom public specification attribution (distribution.js and reader manual)
+  본 제품은 한글과컴퓨터의 글 문서 파일(.hwp) 공개 문서를 참고하여 개발하였습니다.
+  Distribution document specification revision 1.2 (2014-10-09):
+  https://cdn.hancom.com/link/docs/한글문서파일형식_배포용문서_revision1.2.pdf
+  Original encrypted files are not rewritten or exported. Document copy and
+  print restrictions are retained by the reader. Password reading is supported
+  for the documented schemes; DRM and certificate encryption remain unsupported.
+
+@rhwp/core 0.9.1 and rhwp-password-crypto algorithm adaptations
+  https://github.com/edwardkim/rhwp
+  Copyright (c) 2025-2026 Edward Kim. MIT.
+  Unchanged rhwp.js and rhwp_bg.wasm, pinned npm archive integrity and hashes
+  in tools/vendor-lock.json. Loaded only for HWP3/HWPML compatibility and HWP5
+  parser fallback. Conversion is in memory; no user file is overwritten.
+  See rhwp-core-LICENSE.txt and rhwp-core-notices/ for complete bundled notices.
+  Password algorithm source pinned at commit
+  981ce66b4183b13c1a3b5907e04a8969c8c42034, crates/rhwp-password-crypto/src/lib.rs.

@@ -1,0 +1,44 @@
+{
+  "total": 94,
+  "formats": {
+    "hwp": {
+      "loaded": 44,
+      "error": 1
+    },
+    "hwpx": {
+      "loaded": 49
+    }
+  },
+  "hwpxXmlTextVerified": 49,
+  "timeouts": 0,
+  "unexpectedErrors": [],
+  "protectedFiles": [
+    "HWPTest/sample_hwp/distribution.hwp"
+  ],
+  "bigFile": {
+    "file": "HWPTest/sample_hwp/big_file.hwp",
+    "bytes": 10602496,
+    "ms": 11106,
+    "loaded": {
+      "type": "loaded",
+      "session": "ee620c13-c0ca-44b6-b4cb-b69609ba3c06",
+      "pages": 16384,
+      "format": "HWP",
+      "characters": 1769472,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 16384,
+      "characters": 1769472,
+      "virtual": true,
+      "mountedPages": 3,
+      "search": true,
+      "lastPage": true,
+      "textPreserved": true,
+      "safeQuery": true,
+      "images": 1,
+      "decodedImages": 1
+    }
+  },
+  "filesWithWarnings": 24
+}

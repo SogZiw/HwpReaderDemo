@@ -1,0 +1,14 @@
+{
+  "sha256": "e430478725176be97d2a2c1f8dd8db44947d1eb3616c9818f79fd654e3c35b58",
+  "bytes": 16492840,
+  "installedSha256": "e430478725176be97d2a2c1f8dd8db44947d1eb3616c9818f79fd654e3c35b58",
+  "commands": [
+    "./gradlew :app:assembleDebug :app:testDebugUnitTest :app:lintDebug :app:assembleRelease --offline --console=plain",
+    "node tools/worker-tests.cjs"
+  ],
+  "lintErrors": 0,
+  "lintWarnings": 11,
+  "releaseFaultAssets": [],
+  "sourceDistributionSha256": "76377f4c2a10981f382a4ba65ea3b2c9b771a28c6cc55c110ca8ead14f7cb01a",
+  "testCopiesCleaned": true
+}

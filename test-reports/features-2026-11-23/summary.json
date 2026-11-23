@@ -1,0 +1,25 @@
+{
+  "corpusTotal": 94,
+  "corpusLoaded": 94,
+  "corpusSmokePassed": 94,
+  "formats": {
+    "hwp": 45,
+    "hwpx": 49
+  },
+  "newDeviceSamples": 14,
+  "newSamplesLoaded": 14,
+  "timeouts": 0,
+  "layoutIssueFiles": [],
+  "hwpxXmlChecksPassed": 49,
+  "stateTests": {
+    "wrongPasswordRetry": true,
+    "cancelled": true,
+    "switchWhileAwaitingPassword": true,
+    "sameProcess": true
+  },
+  "originalDistributionSha256": "76377f4c2a10981f382a4ba65ea3b2c9b771a28c6cc55c110ca8ead14f7cb01a",
+  "originalDistributionUnchanged": true,
+  "largeDocumentMs": 11562,
+  "uniqueSessions": 108,
+  "chronologicalLogsVerified": true
+}

@@ -1,0 +1,43 @@
+{
+  "apkSha256": "69ff0ed164ad83c99b28d9ad44b30e7f34a6ffb8151e10ea9a84603ad22d7667",
+  "apkBytes": 16454038,
+  "reader": {
+    "drawing.js": "8d92f9a014090747629363e5d33faf7202f75961e07a7fefe5b8f38eee39270f",
+    "legacy-chart-renderer.js": "939d571bd7ba392ad1e373529deed643d306d3c4c4a158f147da9b1159d15b0d",
+    "large-document.js": "9a7d2aafbdc3d45c2dcdbbf52d86f9980f657adc20cd9ee28dfadb5f91d97bf3",
+    "hwp-adapter.js": "f1375b10b9bf3940b351ed34a1e7ffd49b12d7b00b986fc83ccf9867696cdd32",
+    "index.html": "b22ce9649d6db7340af7d833c647b0ee6627dbc1260ae8bae8c3ef860e9c687d",
+    "distribution.js": "5f26d66da65f2a752908a813241b7a0121ae56ee3c9d473276026e38ae896596",
+    "password-worker.js": "281e98bc6692ed140f37bfed2a1c9ed7842f2ea7d1e00a162f2678b390d41d63",
+    "crypto-js.js": "ee02257ffbaf0a9b481c7039b0f3bb20c360c9674fe4be8b38ae709b2ea59bbe",
+    "reader.css": "12ac9f30ef1a94e641794af2c2f6c6a06a10bfcb06927ddbc70a7a9b7c20db29",
+    "jszip.min.js": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+    "hwp-parser.js": "5e598104de1508a058623f268fc28e287587cbc55f3bd6ed54d9cedac46b50ce",
+    "WMFJS.bundle.js": "cbd48013970b474e82fc7515b6977ca79d620ea65688d4c4f996d87973ba6ed3",
+    "legacy-chart-archive.js": "f8bbfc4da75c4db7aa69d331d525cc3590f58bc4892fb1f75e7c56f401bd2432",
+    "EMFJS.bundle.js.map": "15d2989db3079c93d715c93874780d3950b895c1eb6037c537abdb2b680887c7",
+    "cfb.js": "239f7fb9d74b0cb8856e0b1a182bdf310f9fcf5b75a958e84edc158cd387dab2",
+    "pako.min.js": "ede2693a4a6a5126b9d35669062b358ecab6ae7b9b86a1cf302feb45a8514907",
+    "hml-resources.js": "192051c3a43f68708999aca90dd3dcd1197781b5889792c91b1b0f472ab00567",
+    "EMFJS.bundle.js": "9741a1333cefa735144e77bca43ef6f1fc22d3e71a237a3d5700da343d1fc204",
+    "legacy-charts.js": "0aac377c4a95f0bec8316852792b8af83ca555941cf5f62f060d417799b3f36e",
+    "password.js": "7a59e90902ae3dba1862f8e7eadf13f32cfe0437612591eadd8bc1dccb9d0b26",
+    "metafiles.js": "66392e22070db57f6ba5f8c604ac5aa3ec863a5fb96339062d7fddc48fce66a8",
+    "hwpx-parser.js": "cd9f4429a7d927488b5e06c53b94b8a5fd214850d5ea3b1b2655d06a3a12f22c",
+    "WMFJS.bundle.js.map": "6821db5950977617e90c7856f47d9b3716849a495f305682cc2ba66a5011283e",
+    "equations.js": "20b14899df2110a4850e308a7488d4c516532fb5bfc064b40a3e552e592c5277",
+    "reader.js": "47a17e66544c893f44284be57cf7d0150d02d0879ec0ce384ba010c34aa5408f",
+    "model.js": "8dac0215ee663a02244fad9c6809694b2b59a150ae8e89c582879bd6a41e5e72",
+    "password-core.js": "dc82f98943b1572820a7ea28d5b460b5facc49a4cec25c8a12dcd95dda7243b6",
+    "rhwp/rhwp.js": "75eaf7070854c66d31b2223558a4128d05d00dff46b51051ec943cfe250c6365",
+    "rhwp/rhwp_bg.wasm": "e2e56dfd387ffee5b0995d23e4a0086001407f12a045820eb61bd6a506c9abc1"
+  },
+  "checks": [
+    "assembleDebug",
+    "lintDebug",
+    "offline host regression"
+  ],
+  "lint": {
+    "Warning": 8
+  }
+}

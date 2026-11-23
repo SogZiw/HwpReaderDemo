@@ -1,0 +1,31 @@
+{
+  "apkSha256": "d7f9d2f8b7505dde1997b8a9b97fddc47f66eb5e5228a822e3b041e50fe93822",
+  "bytes": 2719994,
+  "readerHashes": {
+    "assets/reader/cfb.js": "239f7fb9d74b0cb8856e0b1a182bdf310f9fcf5b75a958e84edc158cd387dab2",
+    "assets/reader/jszip.min.js": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+    "assets/reader/pako.min.js": "ede2693a4a6a5126b9d35669062b358ecab6ae7b9b86a1cf302feb45a8514907",
+    "assets/reader/index.html": "70668033460afa4def28fed61a16f095fed637b12a82d8d3e5f1480d8e624ad1",
+    "assets/reader/reader.css": "3ff7f2826b881790c51c4c8fc415eb591ff327ba4766eda63d8b9af8731b2942",
+    "assets/reader/hwp-parser.js": "cda3d5c568af448bd3662d5972ba3ebe1b71e78655d75e8e538366d9d07751b0",
+    "assets/reader/hwp-adapter.js": "6e40a1e39ce1f62556173bcce5316d19035cbaf100b1bf1a5433c3f9862de7d4",
+    "assets/reader/model.js": "65553b42796a9e1249f27f2099e06965b05c1a1e5d484d2ed07bb8738932df8e",
+    "assets/reader/large-document.js": "9a7d2aafbdc3d45c2dcdbbf52d86f9980f657adc20cd9ee28dfadb5f91d97bf3",
+    "assets/reader/drawing.js": "69bf4acea6f8d4ab6e13d76ed9c0faeee19c002dca2ba2ab0800bd00bde2b6d5",
+    "assets/reader/hwpx-parser.js": "fc39c1e203ce517747318fa56ccd44c35f4fa70c88b6aa773176fd4330c540f3",
+    "assets/reader/reader.js": "d088c6c851b0a58cce4d9285cda621a2aa33c9f37cccb7cd2cf68f357841c1fb"
+  },
+  "changedReaderFilesAfterCorpusRun": [
+    "assets/reader/drawing.js",
+    "assets/reader/hwpx-parser.js",
+    "assets/reader/reader.js"
+  ],
+  "focusedTests": 16,
+  "focusedTestsAllLoaded": true,
+  "lintCounts": {
+    "Error": 0,
+    "Warning": 8
+  },
+  "focusedUniqueFiles": 14,
+  "builtinSamplesAllLoaded": true
+}

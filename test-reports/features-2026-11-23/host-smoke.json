@@ -1,0 +1,13 @@
+{
+  "reports": [
+    {
+      "file": "sample.hwp",
+      "sections": 1,
+      "characters": 1570,
+      "tables": 5,
+      "images": 4
+    }
+  ],
+  "malformedRejected": true,
+  "encryptedRejected": true
+}

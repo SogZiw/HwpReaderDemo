@@ -1,0 +1,71 @@
+{
+  "engine": "@rhwp/core 0.9.1",
+  "cases": [
+    {
+      "file": "self-generated HWPML",
+      "characters": 22,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "/tmp/hwp-next-sources/13",
+      "characters": 24,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "/tmp/hwp-next-sources/14",
+      "characters": 111,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "/tmp/hwp-next-sources/15",
+      "characters": 395,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "/tmp/hwp-next-sources/16",
+      "characters": 16828,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "/tmp/hwp-password-clear-Hwp5.bin",
+      "characters": 42789,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    }
+  ]
+}

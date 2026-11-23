@@ -1,0 +1,2016 @@
+[
+  {
+    "id": 0,
+    "file": "HWPTest/sample_hwp/basic/blank.hwp",
+    "format": "hwp",
+    "bytes": 14848,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:44:32.877  8330  8330 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:44:32.890  8330  8330 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1990
+  },
+  {
+    "id": 1,
+    "file": "HWPTest/sample_hwp/basic/etc.hwp",
+    "format": "hwp",
+    "bytes": 12800,
+    "status": "error",
+    "error": "Unknown fill kind: 6",
+    "log": "--------- beginning of main\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo: Error: Unknown fill kind: 6\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at mapFillKind (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:598:9)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at mapFill (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:577:16)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:506:18)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3348:7)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:34.727  8464  8464 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26) @210\n11-20 17:44:34.739  8464  8464 E HwpReaderDemo: READER_ERROR Unknown fill kind: 6\n",
+    "ms": 1798
+  },
+  {
+    "id": 2,
+    "file": "HWPTest/sample_hwp/basic/ole.hwp",
+    "format": "hwp",
+    "bytes": 238080,
+    "status": "error",
+    "error": "DocInfo: BinData: Reader is not EOF",
+    "ms": 962,
+    "firstAttempt": {
+      "status": "process_missing",
+      "error": "Stopping: com.example.hwpreader.demo\nStarting: Intent { act=android.intent.action.VIEW dat=file:///... cmp=com.example.hwpreader.demo/com.example.hwpreader.HwpReaderActivity (has extras) }\nStatus: ok\nLaunchState: UNKNOWN (0)\nActivity: com.example.hwpreader.demo/com.example.hwpreader.HwpReaderActivity\nWaitTime: 454\nComplete\n"
+    },
+    "retested": true
+  },
+  {
+    "id": 3,
+    "file": "HWPTest/sample_hwp/basic/각주미주.hwp",
+    "format": "hwp",
+    "bytes": 15360,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:44:37.519  8618  8618 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1779
+  },
+  {
+    "id": 4,
+    "file": "HWPTest/sample_hwp/basic/구버전(5.0.2.2) Picture 컨트롤.hwp",
+    "format": "hwp",
+    "bytes": 96256,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:44:37.503  8618  8618 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:44:37.519  8618  8618 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 211
+  },
+  {
+    "id": 5,
+    "file": "HWPTest/sample_hwp/basic/그림.hwp",
+    "format": "hwp",
+    "bytes": 25088,
+    "status": "error",
+    "error": "Invalid EffectColorEffectKind value: 516",
+    "log": "--------- beginning of main\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo: Error: Invalid EffectColorEffectKind value: 516\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at mapEffectColorEffectKind (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2230:9)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _EffectColorEffect.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2239:7)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _EffectColor.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2145:43)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _Glow.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2254:19)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _PictureEffect.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2066:47)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _PictureRecord.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1967:58)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at parseContent (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2324:28)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _GenShapeObjectControl.fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2346:21)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at parseControl (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2525:36)\n11-20 17:44:39.539  8742  8742 D HwpReaderDemo:     at _Control.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2544:21) @210\n11-20 17:44:39.561  8742  8742 E HwpReaderDemo: READER_ERROR Invalid EffectColorEffectKind value: 516\n",
+    "ms": 1849
+  },
+  {
+    "id": 6,
+    "file": "HWPTest/sample_hwp/basic/글상자-압축.hwp",
+    "format": "hwp",
+    "bytes": 12288,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:44:41.410  8853  8853 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:44:41.422  8853  8853 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1823
+  },
+  {
+    "id": 7,
+    "file": "HWPTest/sample_hwp/basic/글상자.hwp",
+    "format": "hwp",
+    "bytes": 16384,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:44:43.330  8968  8968 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:44:43.348  8968  8968 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1992
+  },
+  {
+    "id": 8,
+    "file": "HWPTest/sample_hwp/basic/글자겹침.hwp",
+    "format": "hwp",
+    "bytes": 11776,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:46.459  9125  9125 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:46.478  9125  9125 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1494
+  },
+  {
+    "id": 9,
+    "file": "HWPTest/sample_hwp/basic/다각형.hwp",
+    "format": "hwp",
+    "bytes": 11776,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:47.998  9233  9233 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:48.009  9233  9233 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1901
+  },
+  {
+    "id": 10,
+    "file": "HWPTest/sample_hwp/basic/덧말.hwp",
+    "format": "hwp",
+    "bytes": 15360,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:49.851  9367  9367 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:49.862  9367  9367 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1875
+  },
+  {
+    "id": 11,
+    "file": "HWPTest/sample_hwp/basic/머리글꼬리글.hwp",
+    "format": "hwp",
+    "bytes": 19968,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:51.721  9479  9479 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:51.733  9479  9479 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1836
+  },
+  {
+    "id": 12,
+    "file": "HWPTest/sample_hwp/basic/묶음.hwp",
+    "format": "hwp",
+    "bytes": 8192,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:53.560  9589  9589 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:53.580  9589  9589 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1843
+  },
+  {
+    "id": 13,
+    "file": "HWPTest/sample_hwp/basic/문단번호 1-10 수준.hwp",
+    "format": "hwp",
+    "bytes": 17408,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "bf984068-dfa1-4836-88a5-1020cbb2d73e",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 40,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 40,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1862
+  },
+  {
+    "id": 14,
+    "file": "HWPTest/sample_hwp/basic/바탕쪽.hwp",
+    "format": "hwp",
+    "bytes": 11776,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:57.320  9812  9812 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:57.334  9812  9812 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1901
+  },
+  {
+    "id": 15,
+    "file": "HWPTest/sample_hwp/basic/새번호지정.hwp",
+    "format": "hwp",
+    "bytes": 18432,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:45:59.190  9932  9932 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:45:59.203  9932  9932 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1868
+  },
+  {
+    "id": 16,
+    "file": "HWPTest/sample_hwp/basic/선-사각형-타원.hwp",
+    "format": "hwp",
+    "bytes": 12288,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:01.081 10043 10043 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:01.103 10043 10043 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1848
+  },
+  {
+    "id": 17,
+    "file": "HWPTest/sample_hwp/basic/수식.hwp",
+    "format": "hwp",
+    "bytes": 11776,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:02.950 10161 10161 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:02.964 10161 10161 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1854
+  },
+  {
+    "id": 18,
+    "file": "HWPTest/sample_hwp/basic/숨은설명.hwp",
+    "format": "hwp",
+    "bytes": 15360,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:04.736 10274 10274 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:04.749 10274 10274 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1856
+  },
+  {
+    "id": 19,
+    "file": "HWPTest/sample_hwp/basic/이미지추가.hwp",
+    "format": "hwp",
+    "bytes": 16896,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:06.625 10387 10387 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:06.640 10387 10387 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1863
+  },
+  {
+    "id": 20,
+    "file": "HWPTest/sample_hwp/basic/차트.hwp",
+    "format": "hwp",
+    "bytes": 7168,
+    "status": "error",
+    "error": "DocInfo: BinData: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo: Error: DocInfo: BinData: Reader is not EOF\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2701:13)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3335:7)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:08.707 10511 10511 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:08.719 10511 10511 E HwpReaderDemo: READER_ERROR DocInfo: BinData: Reader is not EOF\n",
+    "ms": 2058
+  },
+  {
+    "id": 21,
+    "file": "HWPTest/sample_hwp/basic/책갈피.hwp",
+    "format": "hwp",
+    "bytes": 11776,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:10.677 10637 10637 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:10.698 10637 10637 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1997
+  },
+  {
+    "id": 22,
+    "file": "HWPTest/sample_hwp/basic/페이지숨김.hwp",
+    "format": "hwp",
+    "bytes": 18944,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:43.333 10809 10809 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:43.344 10809 10809 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1493
+  },
+  {
+    "id": 23,
+    "file": "HWPTest/sample_hwp/basic/표.hwp",
+    "format": "hwp",
+    "bytes": 17408,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:45.066 10950 10950 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:45.086 10950 10950 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 2004
+  },
+  {
+    "id": 24,
+    "file": "HWPTest/sample_hwp/basic/필드-누름틀.hwp",
+    "format": "hwp",
+    "bytes": 13312,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:47.003 11105 11105 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:47.015 11105 11105 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 2005
+  },
+  {
+    "id": 25,
+    "file": "HWPTest/sample_hwp/basic/필드.hwp",
+    "format": "hwp",
+    "bytes": 15360,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3464:21)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:48.865 11296 11296 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:48.876 11296 11296 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1846
+  },
+  {
+    "id": 26,
+    "file": "HWPTest/sample_hwp/basic/호-곡선.hwp",
+    "format": "hwp",
+    "bytes": 12288,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:46:50.715 11423 11423 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:46:50.726 11423 11423 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1865
+  },
+  {
+    "id": 27,
+    "file": "HWPTest/sample_hwp/big_file.hwp",
+    "format": "hwp",
+    "bytes": 10602496,
+    "status": "timeout",
+    "log": "",
+    "ms": 45135
+  },
+  {
+    "id": 28,
+    "file": "HWPTest/sample_hwp/blank.hwp",
+    "format": "hwp",
+    "bytes": 22528,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "d3ac7841-4f37-46f8-b269-b864cce932fb",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 2335
+  },
+  {
+    "id": 29,
+    "file": "HWPTest/sample_hwp/changing-image.hwp",
+    "format": "hwp",
+    "bytes": 81920,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "bde8b5bc-9776-498f-927c-caeeb1ffc651",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 1,
+      "images": 1,
+      "decodedImages": 1,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1814
+  },
+  {
+    "id": 30,
+    "file": "HWPTest/sample_hwp/changing-paragraph-text.hwp",
+    "format": "hwp",
+    "bytes": 8704,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "628c1b73-899e-4997-9eba-0bcd77a215ea",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 16,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 16,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1834
+  },
+  {
+    "id": 31,
+    "file": "HWPTest/sample_hwp/distribution.hwp",
+    "format": "hwp",
+    "bytes": 74752,
+    "status": "error",
+    "error": "此文件为分发、DRM 或证书保护文档，Demo 暂不支持。",
+    "log": "--------- beginning of main\n11-20 17:47:43.731 12270 12270 D HwpReaderDemo: Error: 此文件为分发、DRM 或证书保护文档，Demo 暂不支持。\n11-20 17:47:43.731 12270 12270 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:12:46)\n11-20 17:47:43.731 12270 12270 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:47:43.742 12270 12270 E HwpReaderDemo: READER_ERROR 此文件为分发、DRM 或证书保护文档，Demo 暂不支持。\n",
+    "ms": 1880
+  },
+  {
+    "id": 32,
+    "file": "HWPTest/sample_hwp/extracting_ParaHead.hwp",
+    "format": "hwp",
+    "bytes": 16384,
+    "status": "error",
+    "error": "DocInfo: ColorFill: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo: Error: DocInfo: ColorFill: Reader is not EOF\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _ColorFill.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:616:13)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at mapFill (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:585:41)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _ElementProperties.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1772:36)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _GenShapeObjectControl.fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2344:49)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at parseControl (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2525:36)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _Control.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2544:21)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1369:65\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at Array.map (<anonymous>)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _Paragraph.fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1369:47)\n11-20 17:47:45.575 12383 12383 D HwpReaderDemo:     at _Section.fromBuffer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2611:33) @210\n11-20 17:47:45.598 12383 12383 E HwpReaderDemo: READER_ERROR DocInfo: ColorFill: Reader is not EOF\n",
+    "ms": 1809
+  },
+  {
+    "id": 33,
+    "file": "HWPTest/sample_hwp/finding-all-field.hwp",
+    "format": "hwp",
+    "bytes": 12288,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "128eae03-7a97-4185-a328-a382656ca7ae",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 813,
+      "warning": "部分特殊对象未绘制"
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 813,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1857
+  },
+  {
+    "id": 34,
+    "file": "HWPTest/sample_hwp/finding-control.hwp",
+    "format": "hwp",
+    "bytes": 17408,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "b301da40-10f4-4991-9c81-b168fa0fb864",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 6,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 6,
+      "tables": 6,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1844
+  },
+  {
+    "id": 35,
+    "file": "HWPTest/sample_hwp/getting_clickhere_text.hwp",
+    "format": "hwp",
+    "bytes": 13312,
+    "status": "error",
+    "error": "DocInfo: Numbering: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo: Error: DocInfo: Numbering: Reader is not EOF\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:365:13)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at readItems (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1273:16)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at _IDMappings.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3356:7)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at _DocInfo.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3470:35)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at _DocInfo.fromCfbContainer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3462:23)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at _HWPDocument.fromBytes (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3658:29)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at Object.parse (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:3691:22)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at Object.parseHwp [as parse] (https://appassets.androidplatform.net/assets/reader/hwp-adapter.js:34:26)\n11-20 17:47:51.079 12723 12723 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/reader.js:245:65 @210\n11-20 17:47:51.096 12723 12723 E HwpReaderDemo: READER_ERROR DocInfo: Numbering: Reader is not EOF\n",
+    "ms": 1844
+  },
+  {
+    "id": 36,
+    "file": "HWPTest/sample_hwp/inserting_image_cell.hwp",
+    "format": "hwp",
+    "bytes": 13312,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "b7fd9c90-1c3e-4ec6-9c5c-dad8b0df4706",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1967
+  },
+  {
+    "id": 37,
+    "file": "HWPTest/sample_hwp/making_caption.hwp",
+    "format": "hwp",
+    "bytes": 9216,
+    "status": "error",
+    "error": "DocInfo: ColorFill: Reader is not EOF",
+    "log": "--------- beginning of main\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo: Error: DocInfo: ColorFill: Reader is not EOF\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _ColorFill.fromReader (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:616:13)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at mapFill (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:585:41)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _ElementProperties.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1772:36)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _GenShapeObjectControl.fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2344:49)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at parseControl (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2525:36)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _Control.fromRecords (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2544:21)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1369:65\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at Array.map (<anonymous>)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _Paragraph.fromRecord (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:1369:47)\n11-20 17:48:11.127 12992 12992 D HwpReaderDemo:     at _Section.fromBuffer (https://appassets.androidplatform.net/assets/reader/hwp-parser.js:2611:33) @210\n11-20 17:48:11.147 12992 12992 E HwpReaderDemo: READER_ERROR DocInfo: ColorFill: Reader is not EOF\n",
+    "ms": 1813
+  },
+  {
+    "id": 38,
+    "file": "HWPTest/sample_hwp/merging-cell.hwp",
+    "format": "hwp",
+    "bytes": 10752,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "0b0f180c-041e-4846-94ea-6175339b4d98",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 147,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 147,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1755
+  },
+  {
+    "id": 39,
+    "file": "HWPTest/sample_hwp/removing-row.hwp",
+    "format": "hwp",
+    "bytes": 9216,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "51d6948a-92fa-4f9f-ba69-06864baac261",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1836
+  },
+  {
+    "id": 40,
+    "file": "HWPTest/sample_hwp/setting-celltext-by-field.hwp",
+    "format": "hwp",
+    "bytes": 9728,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "499b679c-12c6-4e71-b382-16e18e8fc0f2",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 2,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1876
+  },
+  {
+    "id": 41,
+    "file": "HWPTest/sample_hwp/setting-fields.hwp",
+    "format": "hwp",
+    "bytes": 9728,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "5ad1d917-9d35-49c0-81bf-3b9df9814c0f",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 207,
+      "warning": "部分特殊对象未绘制"
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 207,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1936
+  },
+  {
+    "id": 42,
+    "file": "HWPTest/sample_hwp/source.hwp",
+    "format": "hwp",
+    "bytes": 9216,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "46507a37-ece6-4405-b2ff-95d9e85b3d31",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 35,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 35,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1840
+  },
+  {
+    "id": 43,
+    "file": "HWPTest/sample_hwp/target.hwp",
+    "format": "hwp",
+    "bytes": 8704,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "8f9321ac-bce0-4a41-846a-ed90d3daddb9",
+      "pages": 1,
+      "format": "HWP",
+      "characters": 25,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 25,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1866
+  },
+  {
+    "id": 44,
+    "file": "HWPTest/testFileHWPX/error/20230413/test.hwpx",
+    "format": "hwpx",
+    "bytes": 41547,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "ce38955a-5040-481d-94f1-bc6a007fcd76",
+      "pages": 2,
+      "format": "HWPX",
+      "characters": 708,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 708,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1791
+  },
+  {
+    "id": 45,
+    "file": "HWPTest/testFileHWPX/error/20230426/HwpxTest1.hwpx",
+    "format": "hwpx",
+    "bytes": 62331,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "c75071c8-dd82-44b4-967e-b376a72dc91c",
+      "pages": 5,
+      "format": "HWPX",
+      "characters": 1347,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 5,
+      "characters": 1347,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1859
+  },
+  {
+    "id": 46,
+    "file": "HWPTest/testFileHWPX/error/20230728/test.hwpx",
+    "format": "hwpx",
+    "bytes": 254768,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "e0e30dc1-cf19-4ffc-9e36-8bcc45703584",
+      "pages": 68,
+      "format": "HWPX",
+      "characters": 20614,
+      "warning": "超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 68,
+      "characters": 20614,
+      "tables": 44,
+      "images": 1,
+      "decodedImages": 1,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 2902
+  },
+  {
+    "id": 47,
+    "file": "HWPTest/testFileHWPX/error/20230809/test.hwpx",
+    "format": "hwpx",
+    "bytes": 21345,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "146522ec-1b35-45e8-9eb9-37dd7ef8ae8e",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 73,
+      "warning": "页眉页脚暂未重复排版"
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 73,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1917
+  },
+  {
+    "id": 48,
+    "file": "HWPTest/testFileHWPX/error/20230818/test.hwpx",
+    "format": "hwpx",
+    "bytes": 96781,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "088a16c1-f3f4-448e-8e6f-e59d9118f665",
+      "pages": 3,
+      "format": "HWPX",
+      "characters": 5915,
+      "warning": "超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 3,
+      "characters": 5915,
+      "tables": 8,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1874
+  },
+  {
+    "id": 49,
+    "file": "HWPTest/testFileHWPX/error/20231219/test1.hwpx",
+    "format": "hwpx",
+    "bytes": 27012,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "e13f4d83-a607-4ccd-997e-d91ec686cd05",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 26,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 26,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1853
+  },
+  {
+    "id": 50,
+    "file": "HWPTest/testFileHWPX/error/20240305/2022.hwpx",
+    "format": "hwpx",
+    "bytes": 18564,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "30e08ab6-6673-4a4f-85c7-515dc32a8515",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1979
+  },
+  {
+    "id": 51,
+    "file": "HWPTest/testFileHWPX/error/20240416/presentation오류.hwpx",
+    "format": "hwpx",
+    "bytes": 15570,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "50c09bc9-c14e-429e-9819-84caea4ef89f",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1826
+  },
+  {
+    "id": 52,
+    "file": "HWPTest/testFileHWPX/error/20240626/no_manifest.hwpx",
+    "format": "hwpx",
+    "bytes": 15371,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "fe59bc06-aa0f-43db-af8a-c38597534e5b",
+      "pages": 7,
+      "format": "HWPX",
+      "characters": 1360,
+      "warning": "超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 7,
+      "characters": 1360,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1942
+  },
+  {
+    "id": 53,
+    "file": "HWPTest/testFileHWPX/error/20240919/테스트문서.hwpx",
+    "format": "hwpx",
+    "bytes": 21917,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "b8a1afe1-ae27-4646-988a-95303abfc5af",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 115,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 115,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1855
+  },
+  {
+    "id": 54,
+    "file": "HWPTest/testFileHWPX/error/20241104/mot.hwpx",
+    "format": "hwpx",
+    "bytes": 536865,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "e4e0fa0a-9074-428c-a830-b35ff054ef55",
+      "pages": 3,
+      "format": "HWPX",
+      "characters": 1051,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 3,
+      "characters": 1051,
+      "tables": 4,
+      "images": 6,
+      "decodedImages": 6,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1843
+  },
+  {
+    "id": 55,
+    "file": "HWPTest/testFileHWPX/error/20250523/프로젝트 계획서.hwpx",
+    "format": "hwpx",
+    "bytes": 211658,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "62c58c57-daa9-4935-ba7d-e3e0ead20575",
+      "pages": 4,
+      "format": "HWPX",
+      "characters": 392,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 4,
+      "characters": 392,
+      "tables": 2,
+      "images": 1,
+      "decodedImages": 1,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1885
+  },
+  {
+    "id": 56,
+    "file": "HWPTest/testFileHWPX/error/20250808/2015년_12월_재난안전종합상황_분석_및_전망.hwpx",
+    "format": "hwpx",
+    "bytes": 7452328,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "9df96faf-1611-4984-880b-a888ef812dc7",
+      "pages": 77,
+      "format": "HWPX",
+      "characters": 49405,
+      "warning": "页眉页脚暂未重复排版；超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 77,
+      "characters": 49405,
+      "tables": 110,
+      "images": 75,
+      "decodedImages": 75,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 4398
+  },
+  {
+    "id": 57,
+    "file": "HWPTest/testFileHWPX/error/20251107/test.hwpx",
+    "format": "hwpx",
+    "bytes": 157278,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "f6419267-985c-4223-94ce-28a4c89bb2cf",
+      "pages": 31,
+      "format": "HWPX",
+      "characters": 17863,
+      "warning": "超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 31,
+      "characters": 17863,
+      "tables": 31,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 2416
+  },
+  {
+    "id": 58,
+    "file": "HWPTest/testFileHWPX/error/20251107/test_re.hwpx",
+    "format": "hwpx",
+    "bytes": 73693,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "3f558b04-65fe-48e3-a1d7-865ee16f17bc",
+      "pages": 31,
+      "format": "HWPX",
+      "characters": 17863,
+      "warning": "超长表格或对象按完整内容显示"
+    },
+    "smoke": {
+      "pages": 31,
+      "characters": 17863,
+      "tables": 31,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 2344
+  },
+  {
+    "id": 59,
+    "file": "HWPTest/testFileHWPX/error/20260805/고정폭빈칸_문서.hwpx",
+    "format": "hwpx",
+    "bytes": 13290,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "861f7b09-9e2b-458e-ac70-4a496bb733dd",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 15,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 15,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1836
+  },
+  {
+    "id": 60,
+    "file": "HWPTest/testFileHWPX/error/20260806/표전체 형광색인 경우 오류.hwpx",
+    "format": "hwpx",
+    "bytes": 28910,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "d39bad8c-d028-4361-bfe5-dabaa1382bdb",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 56,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 56,
+      "tables": 2,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1820
+  },
+  {
+    "id": 61,
+    "file": "HWPTest/testFileHWPX/reader_writer/ChangeTrack.hwpx",
+    "format": "hwpx",
+    "bytes": 13027,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "1b2582e4-d4e2-47dc-94b9-95be6b62ba16",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 10,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 10,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1853
+  },
+  {
+    "id": 62,
+    "file": "HWPTest/testFileHWPX/reader_writer/HeaderFooter.hwpx",
+    "format": "hwpx",
+    "bytes": 12798,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "9cab8236-65ce-4e05-9cb9-1ca390c3a3b9",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": "页眉页脚暂未重复排版"
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1509
+  },
+  {
+    "id": 63,
+    "file": "HWPTest/testFileHWPX/reader_writer/MultiColumn.hwpx",
+    "format": "hwpx",
+    "bytes": 25049,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "11dd5c24-621a-420e-bc45-741ed718d47f",
+      "pages": 6,
+      "format": "HWPX",
+      "characters": 140,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 6,
+      "characters": 140,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1813
+  },
+  {
+    "id": 64,
+    "file": "HWPTest/testFileHWPX/reader_writer/PageFunctions.hwpx",
+    "format": "hwpx",
+    "bytes": 13563,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "8e311ebe-e530-4de9-aa7c-bbd2c336b66e",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 17,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 17,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1814
+  },
+  {
+    "id": 65,
+    "file": "HWPTest/testFileHWPX/reader_writer/PageSize_Margin.hwpx",
+    "format": "hwpx",
+    "bytes": 11135,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "f55027ab-0589-486b-aff2-98b497baec0a",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1824
+  },
+  {
+    "id": 66,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleArc.hwpx",
+    "format": "hwpx",
+    "bytes": 14344,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "e10a68ab-184d-414a-ae54-bfc724f9f941",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 11,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 11,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1808
+  },
+  {
+    "id": 67,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleButtons.hwpx",
+    "format": "hwpx",
+    "bytes": 13307,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "32acf1d5-6c54-4959-9867-cee52c23cefd",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1880
+  },
+  {
+    "id": 68,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleComboBox.hwpx",
+    "format": "hwpx",
+    "bytes": 13130,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "6a8bcf9f-2d85-45b6-a7ae-1ad16053d73a",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1848
+  },
+  {
+    "id": 69,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleCompose.hwpx",
+    "format": "hwpx",
+    "bytes": 12327,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "d9040e43-0ad4-41ad-a23f-22917cacacd0",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 1,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 1,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1870
+  },
+  {
+    "id": 70,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleConnectLine.hwpx",
+    "format": "hwpx",
+    "bytes": 13914,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "0755bb96-97ef-4872-913f-d513bb0480b7",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1778
+  },
+  {
+    "id": 71,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleContainer.hwpx",
+    "format": "hwpx",
+    "bytes": 49136,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "65cfb33b-147e-4df5-a71f-4e149ddf9b86",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 2,
+      "decodedImages": 2,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1848
+  },
+  {
+    "id": 72,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleCurve.hwpx",
+    "format": "hwpx",
+    "bytes": 19874,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "8d25a3fe-e2d7-4906-a153-efb5fb62e463",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1884
+  },
+  {
+    "id": 73,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleDutmal.hwpx",
+    "format": "hwpx",
+    "bytes": 12515,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "9e60c42e-6d49-4646-a1e4-d59e30550115",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1832
+  },
+  {
+    "id": 74,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleEdit.hwpx",
+    "format": "hwpx",
+    "bytes": 13023,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "8dfa67e1-a406-4802-868e-c62d4932af4f",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1830
+  },
+  {
+    "id": 75,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleEllipse.hwpx",
+    "format": "hwpx",
+    "bytes": 20562,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "c8865f39-dc74-411f-8986-6e86336980ca",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1833
+  },
+  {
+    "id": 76,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleEquation.hwpx",
+    "format": "hwpx",
+    "bytes": 12416,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "a2e65b6a-b404-4c38-931a-05af10acf3d2",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 46,
+      "warning": "公式以源表达式显示"
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 46,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1832
+  },
+  {
+    "id": 77,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleLine.hwpx",
+    "format": "hwpx",
+    "bytes": 19196,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "a2023d09-6b6f-4379-8da2-ec58767cbdf0",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1834
+  },
+  {
+    "id": 78,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleOLE.hwpx",
+    "format": "hwpx",
+    "bytes": 35177,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "2eeb81c1-0ebe-4b94-b0cd-779c713d1ff4",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1504
+  },
+  {
+    "id": 79,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimplePicture.hwpx",
+    "format": "hwpx",
+    "bytes": 79447,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "2be22dec-78d9-485f-a3d7-b1a72887b42e",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 1,
+      "decodedImages": 1,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1849
+  },
+  {
+    "id": 80,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimplePolygon.hwpx",
+    "format": "hwpx",
+    "bytes": 29697,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "4d3a857d-1178-4757-9bc4-950ee4fe3fe0",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1827
+  },
+  {
+    "id": 81,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleRectangle.hwpx",
+    "format": "hwpx",
+    "bytes": 13566,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "7533568a-170e-488f-a689-748f0162c189",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 3,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 3,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1834
+  },
+  {
+    "id": 82,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleTable.hwpx",
+    "format": "hwpx",
+    "bytes": 13315,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "7941ec5d-3a8b-490c-a774-2316f3833816",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 5,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 5,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1829
+  },
+  {
+    "id": 83,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleTextArt.hwpx",
+    "format": "hwpx",
+    "bytes": 14928,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "972cf830-89d2-479b-b45c-bbc669832eba",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1826
+  },
+  {
+    "id": 84,
+    "file": "HWPTest/testFileHWPX/reader_writer/SimpleVideo.hwpx",
+    "format": "hwpx",
+    "bytes": 121568,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "dc296b70-79a7-42f9-a018-376631aca6cf",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1832
+  },
+  {
+    "id": 85,
+    "file": "HWPTest/testFileHWPX/reader_writer/sample1.hwpx",
+    "format": "hwpx",
+    "bytes": 16165,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "66ec2e4a-8f6e-4970-b19f-199832f8f2b3",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 15,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 15,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1843
+  },
+  {
+    "id": 86,
+    "file": "HWPTest/testFileHWPX/tool/blank.hwpx",
+    "format": "hwpx",
+    "bytes": 6397,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "bee5ce3f-abf2-4dc2-8af7-1a2369bc310e",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1797
+  },
+  {
+    "id": 87,
+    "file": "HWPTest/testFileHWPX/tool/finder/TestFinder.hwpx",
+    "format": "hwpx",
+    "bytes": 18376,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "ee4d84ad-1ba3-45ce-9680-591d6c2788bf",
+      "pages": 2,
+      "format": "HWPX",
+      "characters": 19,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 19,
+      "tables": 3,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1915
+  },
+  {
+    "id": 88,
+    "file": "HWPTest/testFileHWPX/tool/textextractor/ParaHead.hwpx",
+    "format": "hwpx",
+    "bytes": 22304,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "8e8597fb-887c-49f0-af36-aa165f36c8ad",
+      "pages": 2,
+      "format": "HWPX",
+      "characters": 117,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 117,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1864
+  },
+  {
+    "id": 89,
+    "file": "HWPTest/testFileHWPX/tool/textextractor/RectInPara.hwpx",
+    "format": "hwpx",
+    "bytes": 17639,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "0b075c6d-eb43-46ad-9c49-6b78b197f3a3",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 140,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 140,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1806
+  },
+  {
+    "id": 90,
+    "file": "HWPTest/testFileHWPX/tool/textextractor/RectInRect.hwpx",
+    "format": "hwpx",
+    "bytes": 15678,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "421375c8-f322-4eb0-98cc-17bf07d06831",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 33,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 33,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1891
+  },
+  {
+    "id": 91,
+    "file": "HWPTest/testFileHWPX/tool/textextractor/Table.hwpx",
+    "format": "hwpx",
+    "bytes": 19919,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "c4105d02-b9f0-4541-a3bd-21a7203442eb",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 55,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 55,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1528
+  },
+  {
+    "id": 92,
+    "file": "HWPTest/testFileHWPX/tool/textextractor/multipara.hwpx",
+    "format": "hwpx",
+    "bytes": 62949,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "98acb28f-1fdb-4c82-b22c-1eea7582ac59",
+      "pages": 2,
+      "format": "HWPX",
+      "characters": 1120,
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 1120,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1812
+  },
+  {
+    "id": 93,
+    "file": "example.hwp",
+    "format": "hwp",
+    "bytes": 736768,
+    "status": "loaded",
+    "loaded": {
+      "type": "loaded",
+      "session": "c2b22be0-9d9e-4da8-92fd-bf9acb296291",
+      "pages": 2,
+      "format": "HWP",
+      "characters": 2485,
+      "warning": "部分图像格式暂不支持"
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 2485,
+      "tables": 0,
+      "images": 2,
+      "decodedImages": 2,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "ms": 1872
+  }
+]

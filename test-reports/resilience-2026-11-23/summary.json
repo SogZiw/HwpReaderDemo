@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-23",
+  "build": {
+    "sha256": "e430478725176be97d2a2c1f8dd8db44947d1eb3616c9818f79fd654e3c35b58",
+    "bytes": 16492840
+  },
+  "device": {
+    "model": "Pixel 5",
+    "android": "14",
+    "serial": "0C091FDD4002R4"
+  },
+  "corpus": {
+    "total": 94,
+    "passed": 94,
+    "hwp": 45,
+    "hwpx": 49,
+    "hwpxSourceTextVerified": 49,
+    "errors": [],
+    "layoutIssues": [],
+    "maxPages": 16384,
+    "slowest": "HWPTest/sample_hwp/big_file.hwp",
+    "slowestMs": 11630
+  },
+  "special": {
+    "total": 20,
+    "passed": 20,
+    "names": [
+      "switch-during-blocked-parse",
+      "crash-loading",
+      "crash-twice",
+      "retry-after-crash-twice",
+      "silent-wait",
+      "main-hang",
+      "retry-after-main-hang",
+      "legacy-conversion-worker-timeout",
+      "retry-after-legacy-conversion-worker-timeout",
+      "restore-page-and-theme",
+      "password-human-wait-pauses-deadline",
+      "wrong-password-retry-retains-budget",
+      "ready-renderer-unresponsive",
+      "password-hwpx",
+      "password-hwp3",
+      "decryption-worker-timeout",
+      "encrypted-recovery-requires-password-again",
+      "native-password-cancel",
+      "distribution-permissions-survive-recovery",
+      "switch-during-password-wait"
+    ]
+  },
+  "unit": {
+    "sessionTests": 5,
+    "workerTests": 10
+  }
+}

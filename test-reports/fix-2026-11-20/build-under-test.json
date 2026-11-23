@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "device": "Pixel 5",
+  "android": "14",
+  "package": "com.example.hwpreader.demo",
+  "testApkSha256": "205b6a8b94449de823fc3b4784d0d0a1b1d13ae7af36e35c749d2d1b461ca600",
+  "readerHashes": {
+    "assets/reader/cfb.js": "239f7fb9d74b0cb8856e0b1a182bdf310f9fcf5b75a958e84edc158cd387dab2",
+    "assets/reader/jszip.min.js": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+    "assets/reader/pako.min.js": "ede2693a4a6a5126b9d35669062b358ecab6ae7b9b86a1cf302feb45a8514907",
+    "assets/reader/drawing.js": "3384e1d0f6d61c7f539ec364aa8b72ebfdb30cb96fe0eaf25e7cf141742e2fcf",
+    "assets/reader/index.html": "70668033460afa4def28fed61a16f095fed637b12a82d8d3e5f1480d8e624ad1",
+    "assets/reader/reader.css": "3ff7f2826b881790c51c4c8fc415eb591ff327ba4766eda63d8b9af8731b2942",
+    "assets/reader/hwp-parser.js": "cda3d5c568af448bd3662d5972ba3ebe1b71e78655d75e8e538366d9d07751b0",
+    "assets/reader/reader.js": "17a1f7e792b1fb7316af84e76131a20cc69d3753fa1c4dfbd536b4b35a8839fb",
+    "assets/reader/hwp-adapter.js": "6e40a1e39ce1f62556173bcce5316d19035cbaf100b1bf1a5433c3f9862de7d4",
+    "assets/reader/hwpx-parser.js": "8a13a9eccf5a715a138373445cdc8bb6561b14f9f97d9e5566f0632c9346febf",
+    "assets/reader/model.js": "65553b42796a9e1249f27f2099e06965b05c1a1e5d484d2ed07bb8738932df8e",
+    "assets/reader/large-document.js": "9a7d2aafbdc3d45c2dcdbbf52d86f9980f657adc20cd9ee28dfadb5f91d97bf3"
+  }
+}

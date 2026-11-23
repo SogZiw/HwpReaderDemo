@@ -1,0 +1,63 @@
+{
+  "total": 94,
+  "formats": {
+    "hwp": {
+      "loaded": 45
+    },
+    "hwpx": {
+      "loaded": 49
+    }
+  },
+  "failures": [],
+  "timeouts": 0,
+  "distribution": {
+    "file": "HWPTest/sample_hwp/distribution.hwp",
+    "ms": 2085,
+    "loaded": {
+      "type": "loaded",
+      "session": "a132d2c8-9149-4f04-91a0-6913c77260bf",
+      "pages": 3,
+      "format": "HWP",
+      "characters": 2326,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": true
+      },
+      "warning": "分发文档 · 只读 · 禁止复制"
+    },
+    "smoke": {
+      "pages": 3,
+      "characters": 2326,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": true
+      },
+      "copyBlocked": true,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": null,
+      "missingSourceText": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    }
+  },
+  "allHwpxSourceTextVerified": true,
+  "layoutIssueFiles": [],
+  "inputSha256": "76377f4c2a10981f382a4ba65ea3b2c9b771a28c6cc55c110ca8ead14f7cb01a",
+  "originalDeviceFileUnchanged": true
+}
