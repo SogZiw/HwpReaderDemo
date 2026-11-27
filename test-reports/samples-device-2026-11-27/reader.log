@@ -1,0 +1,10 @@
+--------- beginning of main
+11-27 17:17:16.762  5657  5657 I HwpReaderDemo: PAGE_START session=5c3e1d06-c468-441a-b22c-c4018e9a636d restore=1
+11-27 17:17:17.285  5657  5657 I HwpReaderDemo: PASSWORD_REQUIRED retry=false
+11-27 17:18:37.130  5657  5657 I HwpReaderDemo: LOADED {"type":"loaded","session":"5c3e1d06-c468-441a-b22c-c4018e9a636d","pages":29,"format":"HWP 3\/97","characters":26301,"permissions":{"readOnly":false,"allowCopy":true,"allowPrint":true},"warning":""}
+11-27 17:20:54.650  5657  5657 I HwpReaderDemo: PAGE_START session=8c98cbe9-606b-4ddf-8a18-be3203032428 restore=1
+11-27 17:20:55.163  5657  5657 I HwpReaderDemo: PASSWORD_REQUIRED retry=false
+11-27 17:21:15.170  5657  5657 I HwpReaderDemo: LOADED {"type":"loaded","session":"8c98cbe9-606b-4ddf-8a18-be3203032428","pages":100,"format":"HWP","characters":56818,"permissions":{"readOnly":false,"allowCopy":true,"allowPrint":true},"warning":""}
+11-27 17:22:08.323  5657  5657 I HwpReaderDemo: PAGE_START session=e282c769-59ed-4ecd-80e2-fc1a8a915525 restore=1
+11-27 17:22:08.610  5657  5657 I HwpReaderDemo: PASSWORD_REQUIRED retry=false
+11-27 17:22:14.411  5657  5657 I HwpReaderDemo: LOADED {"type":"loaded","session":"e282c769-59ed-4ecd-80e2-fc1a8a915525","pages":29,"format":"HWPX","characters":26317,"permissions":{"readOnly":false,"allowCopy":true,"allowPrint":true},"warning":""}

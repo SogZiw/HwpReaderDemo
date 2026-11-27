@@ -1,0 +1,150 @@
+{
+  "device": "Pixel 5",
+  "android": "14",
+  "issue": "Downloads document picker showed empty sample folders despite files existing on disk",
+  "fix": "Scanned all 11 files using MediaProvider scan_file",
+  "phoneFiles": [
+    {
+      "path": "password-hwp5/hwp5-password-123456.hwp",
+      "sha256": "59d4bed335b9552fe78fa68d2a56f7cfa3d586bcdeaaba839af80df13f3e08dc",
+      "matches": true
+    },
+    {
+      "path": "password-hwpx/hwpx-password-123456.hwpx",
+      "sha256": "93e7a62565e0f3efa4feee2812aaf518347dbbcc09d2f26a0d9385f9a4e26060",
+      "matches": true
+    },
+    {
+      "path": "password-hwp3/hwp3-password-123456.hwp",
+      "sha256": "db743d084efc9e08e839a5b4d978b16b8676434011776e090e4cda43e57304be",
+      "matches": true
+    },
+    {
+      "path": "legacy-charts/horizontal-bar.hwp",
+      "sha256": "d0ac60efe64e4d83ddba9ed9ce590a4f4043a4f6e93a0f939f120e5df1c78c78",
+      "matches": true
+    },
+    {
+      "path": "legacy-charts/line.hwp",
+      "sha256": "a842f19fc05b47c626e050235020a0c0cc72dda42cbe9ced2d02525b5c4e6489",
+      "matches": true
+    },
+    {
+      "path": "legacy-charts/column.hwp",
+      "sha256": "12e8b4034cb236cc2fc20b777f90628825111e2ee8d8ec81e97f3fa60987d644",
+      "matches": true
+    },
+    {
+      "path": "legacy-charts/pie.hwp",
+      "sha256": "8ac6a5bc20d413dcdbf978202e98502977358b35ade5a659d23ccbf41e81da53",
+      "matches": true
+    },
+    {
+      "path": "legacy-charts/stacked-column-fallback.hwp",
+      "sha256": "a826795533ec96d15269c60e28b450a140fea1437ba3cd529f36b3c299fde918",
+      "matches": true
+    },
+    {
+      "path": "distribution/no-copy.hwp",
+      "sha256": "76377f4c2a10981f382a4ba65ea3b2c9b771a28c6cc55c110ca8ead14f7cb01a",
+      "matches": true
+    },
+    {
+      "path": "distribution/no-print.hwp",
+      "sha256": "868f254b1a4b283b949682ed06c1694b99f5db2c31ac21d9afb0350ff9b196d4",
+      "matches": true
+    },
+    {
+      "path": "distribution/no-copy-no-print.hwp",
+      "sha256": "9ae5d2ce6a3d9f0ff7b88b06a1d7322deb1aa9ffb7b3828733ce7cfa1a5807ec",
+      "matches": true
+    }
+  ],
+  "scans": [
+    {
+      "path": "password-hwp5/hwp5-password-123456.hwp",
+      "success": true
+    },
+    {
+      "path": "password-hwpx/hwpx-password-123456.hwpx",
+      "success": true
+    },
+    {
+      "path": "password-hwp3/hwp3-password-123456.hwp",
+      "success": true
+    },
+    {
+      "path": "legacy-charts/horizontal-bar.hwp",
+      "success": true
+    },
+    {
+      "path": "legacy-charts/line.hwp",
+      "success": true
+    },
+    {
+      "path": "legacy-charts/column.hwp",
+      "success": true
+    },
+    {
+      "path": "legacy-charts/pie.hwp",
+      "success": true
+    },
+    {
+      "path": "legacy-charts/stacked-column-fallback.hwp",
+      "success": true
+    },
+    {
+      "path": "distribution/no-copy.hwp",
+      "success": true
+    },
+    {
+      "path": "distribution/no-print.hwp",
+      "success": true
+    },
+    {
+      "path": "distribution/no-copy-no-print.hwp",
+      "success": true
+    }
+  ],
+  "loaded": [
+    {
+      "type": "loaded",
+      "session": "5c3e1d06-c468-441a-b22c-c4018e9a636d",
+      "pages": 29,
+      "format": "HWP 3/97",
+      "characters": 26301,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    {
+      "type": "loaded",
+      "session": "8c98cbe9-606b-4ddf-8a18-be3203032428",
+      "pages": 100,
+      "format": "HWP",
+      "characters": 56818,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    {
+      "type": "loaded",
+      "session": "e282c769-59ed-4ecd-80e2-fc1a8a915525",
+      "pages": 29,
+      "format": "HWPX",
+      "characters": 26317,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    }
+  ]
+}

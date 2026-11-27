@@ -38,6 +38,11 @@ Additional fixtures in samples/ (not bundled in the APK)
   SimpleTable.hwpx, SimplePicture.hwpx, sample1.hwpx.
   Upstream license: samples/hwpxlib-LICENSE.txt.
 
+Additional password, distribution and legacy chart fixtures in samples/
+  See samples/README.md and samples/manifest.json for individual provenance,
+  pinned rhwp commit/blob hashes, local source copies and generated fixtures.
+  These are source test resources and are not bundled in the APK.
+
 The HWPX adapter, shared model, search and Android integration were written for
 this demo, using the public dependencies credited here. No private code from
 the inspected application is included.

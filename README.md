@@ -296,6 +296,8 @@ node tools/chart-archive-tests.cjs /path/to/chart.hwp
 
 密码测试使用 Node／OpenSSL 独立构造样本，覆盖错误密码、Unicode、损坏校验和未支持版本。格式测试核对转换前后的提取文字往返；这不等于独立核对原二进制里的所有对象。
 
+密码 HWP 5／HWPX／HWP 3、分发保护及旧版图表的测试文档见 [samples 样本说明](samples/README.md)，其中三个密码文档的密码均为 `123456`。样本位于项目根目录，不自动打入 APK。
+
 ### 5.2 实机页面自检
 
 仅 Debug 包支持以下自动检查：

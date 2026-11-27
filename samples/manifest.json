@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "pathBase": "samples/",
+  "files": [
+    {
+      "path": "password-hwp5/hwp5-password-123456.hwp",
+      "category": "password-hwp5",
+      "description": "Real HWP 5 password file, EncryptVersion 4",
+      "password": "123456",
+      "bytes": 2988032,
+      "sha256": "59d4bed335b9552fe78fa68d2a56f7cfa3d586bcdeaaba839af80df13f3e08dc",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "hwp3-sample16-hwp5-2024-password-123456.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/hwp3-sample16-hwp5-2024-password-123456.hwp",
+        "gitBlobSha1": "c1d509cd2ebdde27e261bd21b27fe931765a5846"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "passwordVerified": true,
+        "wrongPasswordRejected": true,
+        "encryptVersion": 4,
+        "parser": "wasm-fallback",
+        "adapterError": "PageDefinition: Record has wrong ID",
+        "characters": 64785,
+        "conversionRoundtrip": true,
+        "loss": {
+          "schemaVersion": 1,
+          "outputFormat": "hwpx",
+          "count": 0,
+          "losses": []
+        },
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "password-hwpx/hwpx-password-123456.hwpx",
+      "category": "password-hwpx",
+      "description": "Real HWPX password file, AES-256-CBC/PBKDF2",
+      "password": "123456",
+      "bytes": 110701,
+      "sha256": "93e7a62565e0f3efa4feee2812aaf518347dbbcc09d2f26a0d9385f9a4e26060",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "HWP5-password-123456.hwpx",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/HWP5-password-123456.hwpx",
+        "gitBlobSha1": "1a01474d842f4994dd9d36b54f3ff15f7bdd77f3"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "passwordVerified": true,
+        "wrongPasswordRejected": true,
+        "encryptedEntries": 7,
+        "characters": 26803,
+        "conversionRoundtrip": true,
+        "loss": {
+          "schemaVersion": 1,
+          "outputFormat": "hwpx",
+          "count": 0,
+          "losses": []
+        },
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "password-hwp3/hwp3-password-123456.hwp",
+      "category": "password-hwp3",
+      "description": "Real compressed HWP 3 password file, DES-ECB",
+      "password": "123456",
+      "bytes": 101244,
+      "sha256": "db743d084efc9e08e839a5b4d978b16b8676434011776e090e4cda43e57304be",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "HWP3-password-123456.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/HWP3-password-123456.hwp",
+        "gitBlobSha1": "f2aa17eee3c5b5dda440250d6f0c9d59bcdb51e7"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "passwordVerified": true,
+        "wrongPasswordRejected": true,
+        "characters": 26802,
+        "conversionRoundtrip": true,
+        "loss": {
+          "schemaVersion": 1,
+          "outputFormat": "hwpx",
+          "count": 0,
+          "losses": []
+        },
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "legacy-charts/horizontal-bar.hwp",
+      "category": "legacy-chart",
+      "description": "Grouped horizontal bars",
+      "password": null,
+      "bytes": 38400,
+      "sha256": "d0ac60efe64e4d83ddba9ed9ce590a4f4043a4f6e93a0f939f120e5df1c78c78",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "chart/가로막대형/묶은가로막대형.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/chart/가로막대형/묶은가로막대형.hwp",
+        "gitBlobSha1": "404a5ecad971a365d186366b616ee5643ee70cfd"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "charts": [
+          {
+            "type": 11,
+            "series": 3,
+            "categories": 4,
+            "reconstructionAllowed": true
+          }
+        ],
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "legacy-charts/line.hwp",
+      "category": "legacy-chart",
+      "description": "Two-dimensional line chart",
+      "password": null,
+      "bytes": 50176,
+      "sha256": "a842f19fc05b47c626e050235020a0c0cc72dda42cbe9ced2d02525b5c4e6489",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "chart/라인/꺽은선형.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/chart/라인/꺽은선형.hwp",
+        "gitBlobSha1": "d954235b87ceba5b7380b88c6f74419f246c8fe4"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "charts": [
+          {
+            "type": 3,
+            "series": 3,
+            "categories": 4,
+            "reconstructionAllowed": true
+          }
+        ],
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "legacy-charts/column.hwp",
+      "category": "legacy-chart",
+      "description": "Grouped vertical columns",
+      "password": null,
+      "bytes": 36864,
+      "sha256": "12e8b4034cb236cc2fc20b777f90628825111e2ee8d8ec81e97f3fa60987d644",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "chart/세로막대형/묶은세로막대형.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/chart/세로막대형/묶은세로막대형.hwp",
+        "gitBlobSha1": "32fa00bb3b86dabe7a467f1abcec4d87875a738f"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "charts": [
+          {
+            "type": 1,
+            "series": 3,
+            "categories": 4,
+            "reconstructionAllowed": true
+          }
+        ],
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "legacy-charts/pie.hwp",
+      "category": "legacy-chart",
+      "description": "Two-dimensional pie chart",
+      "password": null,
+      "bytes": 42496,
+      "sha256": "8ac6a5bc20d413dcdbf978202e98502977358b35ade5a659d23ccbf41e81da53",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "chart/원형/2차원원형.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/chart/원형/2차원원형.hwp",
+        "gitBlobSha1": "8d63d7c59f73475574f3d89b207da32c55d39161"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "charts": [
+          {
+            "type": 14,
+            "series": 1,
+            "categories": 4,
+            "reconstructionAllowed": true
+          }
+        ],
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "legacy-charts/stacked-column-fallback.hwp",
+      "category": "legacy-chart",
+      "description": "Stacked columns: preserve preview/data fallback",
+      "password": null,
+      "bytes": 36864,
+      "sha256": "a826795533ec96d15269c60e28b450a140fea1437ba3cd529f36b3c299fde918",
+      "source": {
+        "kind": "upstream-fixture",
+        "repository": "https://github.com/edwardkim/rhwp",
+        "commit": "981ce66b4183b13c1a3b5907e04a8969c8c42034",
+        "path": "chart/세로막대형/누적세로막대형.hwp",
+        "url": "https://github.com/edwardkim/rhwp/blob/981ce66b4183b13c1a3b5907e04a8969c8c42034/samples/chart/세로막대형/누적세로막대형.hwp",
+        "gitBlobSha1": "b697662d2b044b6d3db91ec0b9824ebc54e3a2fb"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "charts": [
+          {
+            "type": 1,
+            "series": 3,
+            "categories": 4,
+            "reconstructionAllowed": false
+          }
+        ],
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "distribution/no-copy.hwp",
+      "category": "distribution",
+      "description": "Real distribution file: no copy, printing allowed, no opening password",
+      "password": null,
+      "bytes": 74752,
+      "sha256": "76377f4c2a10981f382a4ba65ea3b2c9b771a28c6cc55c110ca8ead14f7cb01a",
+      "expectedPermissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": true
+      },
+      "source": {
+        "kind": "existing-project-fixture",
+        "path": "test-files/hwp/HWPTest/sample_hwp/distribution.hwp",
+        "originalRelative": "HWPTest/sample_hwp/distribution.hwp",
+        "manifest": "../test-files/manifest.json"
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": true
+        },
+        "characters": 2326,
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "distribution/no-print.hwp",
+      "category": "distribution",
+      "description": "Synthetic distribution file: copying allowed, no print",
+      "password": null,
+      "bytes": 243200,
+      "sha256": "868f254b1a4b283b949682ed06c1694b99f5db2c31ac21d9afb0350ff9b196d4",
+      "expectedPermissions": {
+        "readOnly": true,
+        "allowCopy": true,
+        "allowPrint": false
+      },
+      "source": {
+        "kind": "generated-fixture",
+        "generator": "../tools/distribution-tests.cjs",
+        "command": "node tools/distribution-tests.cjs --output=/tmp/hwp-distribution-fixtures",
+        "generatedFile": "distribution-2.hwp",
+        "base": "../app/src/main/assets/samples/sample.hwp",
+        "baseSha256": "d4b9f0d59bafa4b550db142ef3b50f570ffee7cdcbd9a290eac26779172f262a",
+        "flags": 2
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": true,
+          "allowPrint": false
+        },
+        "characters": 1570,
+        "originalUnchanged": true
+      }
+    },
+    {
+      "path": "distribution/no-copy-no-print.hwp",
+      "category": "distribution",
+      "description": "Synthetic distribution file: no copy, no print",
+      "password": null,
+      "bytes": 243200,
+      "sha256": "9ae5d2ce6a3d9f0ff7b88b06a1d7322deb1aa9ffb7b3828733ce7cfa1a5807ec",
+      "expectedPermissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": false
+      },
+      "source": {
+        "kind": "generated-fixture",
+        "generator": "../tools/distribution-tests.cjs",
+        "command": "node tools/distribution-tests.cjs --output=/tmp/hwp-distribution-fixtures",
+        "generatedFile": "distribution-3.hwp",
+        "base": "../app/src/main/assets/samples/sample.hwp",
+        "baseSha256": "d4b9f0d59bafa4b550db142ef3b50f570ffee7cdcbd9a290eac26779172f262a",
+        "flags": 3
+      },
+      "validation": {
+        "method": "local-node-current-reader",
+        "date": "2026-11-27",
+        "sha256Verified": true,
+        "permissions": {
+          "readOnly": true,
+          "allowCopy": false,
+          "allowPrint": false
+        },
+        "characters": 1570,
+        "originalUnchanged": true
+      }
+    }
+  ]
+}
