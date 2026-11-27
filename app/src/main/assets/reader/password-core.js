@@ -1,5 +1,5 @@
 /* Password read support, adapted from rhwp-password-crypto (MIT).
- * Copyright (c) 2025-2026 Edward Kim. See licenses/rhwp-LICENSE.txt.
+ * Copyright (c) 2025-2026 Edward Kim. See third_party/rhwp/LICENSE in the source project.
  * Crypto algorithms run in a disposable worker. No decrypted file is saved.
  */
 (function(global){

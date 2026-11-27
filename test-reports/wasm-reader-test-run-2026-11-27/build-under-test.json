@@ -1,0 +1,9 @@
+{
+  "apk": "app/build/outputs/apk/debug/app-debug.apk",
+  "bytes": 11687508,
+  "sha256": "e316188d5b6496106a86613c9649b56d0ab403c8841f01e8f08f6ad33c831e81",
+  "readerFiles": {
+    "rhwp.js": "88d32a03632af2977196bf4e6078f7930681a15d3702e74f7baee9706d36696a",
+    "rhwp_bg.wasm": "7e5af3c951c1a50994263bd0215924153434ab9e794f053b0b737bcf5cf04943"
+  }
+}

@@ -188,10 +188,9 @@ class HwpReaderActivity : ComponentActivity() {
         empty.addView(button("选择文档") { openFile.launch(arrayOf("*/*")) })
         empty.addView(button("体验 HWP 示例") { loadSample("sample.hwp") })
         empty.addView(button("体验 HWPX 示例") { loadSample("sample.hwpx") })
-        empty.addView(button("关于 / 许可") {
+        empty.addView(button("关于") {
             android.app.AlertDialog.Builder(this).setTitle("HWP Reader Demo")
                 .setMessage("本地离线阅读 HWP / HWPX。\n\n본 제품은 한글과컴퓨터의 글 문서 파일(.hwp) 공개 문서를 참고하여 개발하였습니다.")
-                .setNeutralButton("开源许可") { _, _ -> showLicenses() }
                 .setPositiveButton("确定", null).show()
         })
         stage.addView(empty, FrameLayout.LayoutParams(-1, -1))
@@ -651,13 +650,6 @@ class HwpReaderActivity : ComponentActivity() {
                     PrintAttributes.Builder().setMediaSize(PrintAttributes.MediaSize.ISO_A4).setMinMargins(PrintAttributes.Margins.NO_MARGINS).build())
             }
         }
-    }
-
-    private fun showLicenses() {
-        val text = assets.list("licenses").orEmpty().sorted().mapNotNull { name ->
-            runCatching { assets.open("licenses/$name").bufferedReader().use { "$name\n\n${it.readText()}" } }.getOrNull()
-        }.joinToString("\n\n────────\n\n")
-        android.app.AlertDialog.Builder(this).setTitle("开源许可").setMessage(text).setPositiveButton("确定", null).show()
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

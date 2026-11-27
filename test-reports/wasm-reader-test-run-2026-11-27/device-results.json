@@ -1,0 +1,392 @@
+[
+  {
+    "file": "HeaderFooter.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "log": "--------- beginning of main\n11-27 16:21:55.218 27486 27486 I HwpReaderDemo: PAGE_START session=ef8f4d6b-498b-4cf7-b443-4deba5e1c92d restore=1\n11-27 16:21:56.069 27486 27486 D HwpReaderDemo: SMOKE_OK {\"pages\":5,\"characters\":1570,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":null,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":5,\"images\":4,\"decodedImages\":4,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:21:56.094 27486 27486 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"ef8f4d6b-498b-4cf7-b443-4deba5e1c92d\",\"pages\":5,\"format\":\"HWP\",\"characters\":1570,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n11-27 16:22:05.357 27621 27621 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<\n11-27 16:22:05.369 27621 27621 I AndroidRuntime: Using default boot image\n11-27 16:22:05.369 27621 27621 I AndroidRuntime: Leaving lock profiling enabled\n11-27 16:22:05.566 27621 27621 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher\n11-27 16:22:07.017 27621 27621 D AndroidRuntime: Shutting down VM\n11-27 16:22:55.268 27727 27727 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<\n11-27 16:22:55.273 27727 27727 I AndroidRuntime: Using default boot image\n11-27 16:22:55.273 27727 27727 I AndroidRuntime: Leaving lock profiling enabled\n11-27 16:22:55.437 27727 27727 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher\n11-27 16:22:56.793 27727 27727 D AndroidRuntime: Shutting down VM\n11-27 16:23:31.028 27486 27486 I HwpReaderDemo: PAGE_START session=e434823a-73f1-4428-b925-3029c61a19c4 restore=1\n11-27 16:23:31.341 27486 27486 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":10,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:23:31.355 27486 27486 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"e434823a-73f1-4428-b925-3029c61a19c4\",\"pages\":1,\"format\":\"HWPX\",\"characters\":10,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n11-27 16:23:35.946 27818 27818 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.\n11-27 16:24:26.862 28745 28745 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<\n11-27 16:24:26.866 28745 28745 I AndroidRuntime: Using default boot image\n11-27 16:24:26.866 28745 28745 I AndroidRuntime: Leaving lock profiling enabled\n",
+    "loaded": {
+      "type": "loaded",
+      "session": "e434823a-73f1-4428-b925-3029c61a19c4",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 10,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 10,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    }
+  },
+  {
+    "file": "MultiColumn.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "25a05e29-2ed3-4624-acee-6f57ca77a86c",
+      "pages": 2,
+      "format": "HWPX",
+      "characters": 140,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 2,
+      "characters": 140,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 3,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:29:07.090 29112 29112 I HwpReaderDemo: PAGE_START session=25a05e29-2ed3-4624-acee-6f57ca77a86c restore=1\n11-27 16:29:07.569 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":2,\"characters\":140,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":3,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":null,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:29:07.580 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"25a05e29-2ed3-4624-acee-6f57ca77a86c\",\"pages\":2,\"format\":\"HWPX\",\"characters\":140,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "file": "PageSize_Margin.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "e13006f5-16e3-4360-86ef-4af57b32ceed",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 1031.8,
+      "pageHeight": 728.52,
+      "captions": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:29:29.688 29112 29112 I HwpReaderDemo: PAGE_START session=e13006f5-16e3-4360-86ef-4af57b32ceed restore=1\n11-27 16:29:29.999 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":0,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":1031.8,\"pageHeight\":728.52,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":null,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:29:30.005 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"e13006f5-16e3-4360-86ef-4af57b32ceed\",\"pages\":1,\"format\":\"HWPX\",\"characters\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "file": "SimpleEquation.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "2e880c9e-e93b-4cee-90fa-c4766276016b",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 15,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 15,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 1,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:30:00.994 29112 29112 I HwpReaderDemo: PAGE_START session=2e880c9e-e93b-4cee-90fa-c4766276016b restore=1\n11-27 16:30:01.384 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":15,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":1,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":null,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:30:01.393 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"2e880c9e-e93b-4cee-90fa-c4766276016b\",\"pages\":1,\"format\":\"HWPX\",\"characters\":15,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "file": "sample1.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "95a795ec-352e-4699-b491-54d232daf431",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 15,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 15,
+      "shapes": 2,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 0,
+      "images": 0,
+      "decodedImages": 0,
+      "search": true,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:30:06.866 29112 29112 I HwpReaderDemo: PAGE_START session=95a795ec-352e-4699-b491-54d232daf431 restore=1\n11-27 16:30:07.195 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":15,\"shapes\":2,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":0,\"decodedImages\":0,\"search\":true,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:30:07.212 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"95a795ec-352e-4699-b491-54d232daf431\",\"pages\":1,\"format\":\"HWPX\",\"characters\":15,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "file": "SimplePicture.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "3b7b56fa-71f9-4426-bd49-3287297cf851",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 0,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 0,
+      "images": 1,
+      "decodedImages": 1,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:30:59.850 29112 29112 I HwpReaderDemo: PAGE_START session=3b7b56fa-71f9-4426-bd49-3287297cf851 restore=1\n11-27 16:31:00.196 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":0,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":0,\"images\":1,\"decodedImages\":1,\"search\":null,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:31:00.210 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"3b7b56fa-71f9-4426-bd49-3287297cf851\",\"pages\":1,\"format\":\"HWPX\",\"characters\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "file": "SimpleTable.hwpx",
+    "source": "Downloads/HWPTest/testFileHWPX/reader_writer",
+    "status": "passed",
+    "loaded": {
+      "type": "loaded",
+      "session": "91b69fd9-f220-4b70-a478-1bf65774eee9",
+      "pages": 1,
+      "format": "HWPX",
+      "characters": 5,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 1,
+      "characters": 5,
+      "shapes": 0,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": true,
+      "equations": 0,
+      "metafiles": 0,
+      "notes": 0,
+      "layoutIssues": [],
+      "sourceTextPreserved": true,
+      "missingSourceText": [],
+      "legacyCharts": 0,
+      "chartSeries": [],
+      "columns": 1,
+      "pageWidth": 595.28,
+      "pageHeight": 841.88,
+      "captions": 0,
+      "tables": 1,
+      "images": 0,
+      "decodedImages": 0,
+      "search": null,
+      "crossSpan": null,
+      "textPreserved": true,
+      "safeQuery": true
+    },
+    "log": "g\":\"\"}\n11-27 16:31:49.852 29112 29112 I HwpReaderDemo: PAGE_START session=91b69fd9-f220-4b70-a478-1bf65774eee9 restore=1\n11-27 16:31:50.225 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":1,\"characters\":5,\"shapes\":0,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":true,\"equations\":0,\"metafiles\":0,\"notes\":0,\"layoutIssues\":[],\"sourceTextPreserved\":true,\"missingSourceText\":[],\"legacyCharts\":0,\"chartSeries\":[],\"columns\":1,\"pageWidth\":595.28,\"pageHeight\":841.88,\"captions\":0,\"tables\":1,\"images\":0,\"decodedImages\":0,\"search\":null,\"crossSpan\":null,\"textPreserved\":true,\"safeQuery\":true} @462\n11-27 16:31:50.240 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"91b69fd9-f220-4b70-a478-1bf65774eee9\",\"pages\":1,\"format\":\"HWPX\",\"characters\":5,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n"
+  },
+  {
+    "source": "Downloads/HWPTest/sample_hwp",
+    "status": "passed",
+    "ms": 27237,
+    "loaded": {
+      "type": "loaded",
+      "session": "5d4fb895-005e-4c98-9bbe-77d35b4f213b",
+      "pages": 16384,
+      "format": "HWP",
+      "characters": 1769472,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "warning": ""
+    },
+    "smoke": {
+      "pages": 16384,
+      "characters": 1769472,
+      "virtual": true,
+      "mountedPages": 3,
+      "search": true,
+      "lastPage": true,
+      "textPreserved": true,
+      "safeQuery": true,
+      "images": 1,
+      "decodedImages": 1,
+      "permissions": {
+        "readOnly": false,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "copyBlocked": false,
+      "printAllowed": false
+    },
+    "log": "g\":\"\"}\n11-27 16:32:52.277 29112 29112 I HwpReaderDemo: PAGE_START session=5d4fb895-005e-4c98-9bbe-77d35b4f213b restore=1\n11-27 16:33:08.706 29112 29112 D HwpReaderDemo: SMOKE_OK {\"pages\":16384,\"characters\":1769472,\"virtual\":true,\"mountedPages\":3,\"search\":true,\"lastPage\":true,\"textPreserved\":true,\"safeQuery\":true,\"images\":1,\"decodedImages\":1,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"copyBlocked\":false,\"printAllowed\":false} @422\n11-27 16:33:08.971 29112 29112 I HwpReaderDemo: LOADED {\"type\":\"loaded\",\"session\":\"5d4fb895-005e-4c98-9bbe-77d35b4f213b\",\"pages\":16384,\"format\":\"HWP\",\"characters\":1769472,\"permissions\":{\"readOnly\":false,\"allowCopy\":true,\"allowPrint\":true},\"warning\":\"\"}\n",
+    "file": "big_file.hwp",
+    "filenameVerifiedBy": "large-device.png"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "engine": "@rhwp/core 0.9.1",
+  "cases": [
+    {
+      "file": "self-generated HWPML",
+      "characters": 22,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "app/src/main/assets/samples/sample.hwp",
+      "characters": 1253,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    },
+    {
+      "file": "app/src/main/assets/samples/sample.hwpx",
+      "characters": 727,
+      "textRoundtrip": true,
+      "loss": {
+        "schemaVersion": 1,
+        "outputFormat": "hwpx",
+        "count": 0,
+        "losses": []
+      }
+    }
+  ]
+}

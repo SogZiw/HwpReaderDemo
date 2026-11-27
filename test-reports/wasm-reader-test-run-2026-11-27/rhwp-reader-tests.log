@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "file": "HWPML",
+      "outputBytes": 5513,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "app/src/main/assets/samples/sample.hwp",
+      "outputBytes": 230981,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "app/src/main/assets/samples/sample.hwpx",
+      "outputBytes": 7514,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "samples/SimpleTable.hwpx",
+      "outputBytes": 8940,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "samples/SimplePicture.hwpx",
+      "outputBytes": 73056,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "samples/sample1.hwpx",
+      "outputBytes": 11183,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "/var/folders/xl/pby044vs4rz8pfbc7dsh4n740000gn/T/hwp-wasm-opt-47sk5taj/hwp3-sample.hwp",
+      "outputBytes": 68750,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/finding-all-field.hwp",
+      "outputBytes": 8491,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/merging-cell.hwp",
+      "outputBytes": 8567,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/changing-image.hwp",
+      "outputBytes": 66465,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/source.hwp",
+      "outputBytes": 8214,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/making_caption.hwp",
+      "outputBytes": 8217,
+      "identicalToUpstream": true
+    },
+    {
+      "file": "test-files/hwp/HWPTest/sample_hwp/blank.hwp",
+      "outputBytes": 7330,
+      "identicalToUpstream": true
+    }
+  ],
+  "invalidInputs": 2
+}

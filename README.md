@@ -76,7 +76,7 @@ Release 构建：
 ### 2.3 接入已有 Android 项目
 
 1. 复制 [HwpReaderActivity.kt](app/src/main/java/com/example/hwpreader/HwpReaderActivity.kt) 和 [ReaderSession.kt](app/src/main/java/com/example/hwpreader/ReaderSession.kt)。
-2. 复制完整的 `app/src/main/assets/reader/` 与 `app/src/main/assets/licenses/`，保留相对目录，尤其是 `reader/rhwp/` 下的 JS／WASM。
+2. 复制完整的 `app/src/main/assets/reader/`，保留相对目录，尤其是 `reader/rhwp/` 下的 JS／WASM。依赖许可与归属说明保存在源码的 `third_party/` 中，不作为阅读资源打入 APK。
 3. 合并 `app/src/main/res/values/strings.xml` 中的 `document_status`、`page_status`、`search_status` 三个字符串。
 4. 保留首页示例按钮时，还需复制 `app/src/main/assets/samples/`；若不需要示例，应同步移除按钮及加载入口。
 5. 添加依赖并开启 BuildConfig：
@@ -188,6 +188,24 @@ HWPX 由本项目的 `hwpx-parser.js` 处理，**不是由 hwp.js 直接支持**
 
 HWP 3／HWPML 使用固定版本 `@rhwp/core 0.9.1` 的本地 WASM，在 Worker 中导出内存 HWPX，再复用 HWPX 解析器。HWPML 额外由 `hml-resources.js` 保留压缩／未压缩 Base64 图片及位置，并处理 UTF-16 输入。
 
+打包的 rhwp 已裁剪为阅读适配版本：只暴露文档创建／释放、HWPX 转换、报告和输出字节读取，以及回归检查使用的只读文字提取。编辑、插入、删除、格式修改、PDF 导入和 WASM 自带渲染接口不再导出。先移除这些 WASM 导出入口，再用 Binaryen 132 清理不可达代码；不是只删除 JS 方法。
+
+WASM 原始大小从 27,882,066 降至 20,489,960 字节，JS 从 587,539 降至 39,998 字节。Release APK 中这两项合计减少 2,679,152 字节；保留 `.map` 和所有内置示例。解析／转换仍会共享部分底层实现，因此阅读版本中仍有无法仅靠导出入口裁剪移除的代码。
+
+`tools/vendor-lock.json` 同时固定上游原始哈希、优化工具版本／完整性和裁剪后哈希。常规 Android 构建直接使用已裁剪资源，不需要安装优化器。仅重新生成依赖时需要 Node.js 20+ 和 `binaryen@132.0.0` 的 `wasm-opt`：
+
+```shell
+python3 tools/fetch-vendor.py --wasm-opt /path/to/binaryen/bin/wasm-opt
+
+# 已有校验过的上游 rhwp.js、rhwp_bg.wasm 时，可离线重新裁剪
+python3 tools/trim-rhwp.py /tmp/upstream-rhwp /tmp/reader-rhwp --wasm-opt /path/to/binaryen/bin/wasm-opt
+
+# 比较项目内的阅读版本与上游版本的输出字节、文字、报告和异常
+node tools/rhwp-reader-tests.mjs /tmp/upstream-rhwp /path/to/hwp3-sample.hwp
+```
+
+裁剪验证记录见 [WASM 体积与回归报告](test-reports/wasm-reader-2026-11-27.md)。
+
 转换报告中的内容损失会显示为兼容提示。转换不覆盖原件，不自动生成磁盘 HWPX；这是一条兼容阅读路径，不代表原格式所有对象已完整还原。
 
 ### 3.6 共同模型、渲染与大文档
@@ -241,8 +259,7 @@ app/src/main/
 │   │   ├── legacy-chart*.js       旧图表归档、数据和绘制
 │   │   ├── large-document.js      大文档按需分页
 │   │   └── rhwp/                  固定版本 JS / WASM
-│   ├── samples/                   随 APK 打包的示例
-│   └── licenses/                  随 APK 打包的许可
+│   └── samples/                   随 APK 打包的示例
 └── res/                           主题、图标和字符串
 
 app/src/debug/assets/reader/         仅 Debug 的故障脚本
@@ -408,7 +425,7 @@ adb shell am start -S -f 0x10008000 -n com.example.hwpreader.demo/com.example.hw
 
 ### 8.3 版本、许可与归属
 
-完整来源、版本、修改说明和许可见 [third_party/NOTICE.txt](third_party/NOTICE.txt)、[tools/vendor-lock.json](tools/vendor-lock.json) 和 `app/src/main/assets/licenses/`。迁移和分发时需要保留对应许可与归属说明。
+完整来源、版本、修改说明和许可见 [third_party/NOTICE.txt](third_party/NOTICE.txt)、[tools/vendor-lock.json](tools/vendor-lock.json) 和 [third_party/rhwp-core-NOTICES.txt](third_party/rhwp-core-NOTICES.txt)。许可文件集中保存在源码的 `third_party/`，不作为阅读资源打入 APK。迁移和分发时需要保留对应许可与归属说明。
 
 内置 HWP 为 hwp.js 公开示例，内置 HWPX 为本项目生成；`samples/` 的额外样例另附许可。本次按要求加入的 Downloads 测试副本位于 `test-files/`，随源码归档提供，不自动打入 APK。
 

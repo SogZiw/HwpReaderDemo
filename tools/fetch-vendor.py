@@ -3,16 +3,25 @@
 Optional maintenance tool, not a prerequisite for building/running the demo.
 """
 import base64
+import argparse
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 import re
 import tarfile
+import tempfile
+import shutil
 from urllib.request import urlopen
 
 root = Path(__file__).resolve().parents[1]
 lock = json.loads((root / 'tools/vendor-lock.json').read_text())
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--wasm-opt', type=Path, default=os.environ.get('WASM_OPT') or shutil.which('wasm-opt'))
+args = parser.parse_args()
+if 'readerOnly' in lock.get('rhwpCore', {}) and not args.wasm_opt:
+    parser.error('Reader-only WASM requires Binaryen 132; pass --wasm-opt /path/to/wasm-opt')
 destination = root / 'app/src/main/assets/reader'
 for item in lock['files']:
     data = urlopen(item['url'], timeout=60).read()
@@ -43,11 +52,12 @@ if 'rhwpCore' in lock:
     item = lock['rhwpCore']
     data = urlopen(item['url'], timeout=60).read()
     assert 'sha512-' + base64.b64encode(hashlib.sha512(data).digest()).decode() == item['integrity'], 'rhwp archive checksum mismatch'
-    with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as archive:
+    with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as archive, tempfile.TemporaryDirectory(prefix='rhwp-upstream-') as temporary:
+        upstream = Path(temporary)
         for name, expected in item['files'].items():
             payload = archive.extractfile('package/' + name).read()
             assert hashlib.sha256(payload).hexdigest() == expected, name + ' checksum mismatch'
-            target = destination / 'rhwp' / name
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(payload)
-    print('Verified rhwp/core WASM compatibility adapter')
+            (upstream / name).write_bytes(payload)
+        adapter = runpy.run_path(str(root / 'tools/trim-rhwp.py'))
+        print(adapter['trim'](upstream, destination / 'rhwp', args.wasm_opt.resolve()))
+    print('Verified reader-only rhwp/core WASM compatibility adapter')

@@ -55,6 +55,23 @@
     "files": {
       "rhwp.js": "75eaf7070854c66d31b2223558a4128d05d00dff46b51051ec943cfe250c6365",
       "rhwp_bg.wasm": "e2e56dfd387ffee5b0995d23e4a0086001407f12a045820eb61bd6a506c9abc1"
+    },
+    "readerOnly": {
+      "optimizer": {
+        "package": "binaryen",
+        "version": "132.0.0",
+        "url": "https://registry.npmjs.org/binaryen/-/binaryen-132.0.0.tgz",
+        "integrity": "sha512-4Usg7yEvwO3FMso3Oov6qkOOHSod1IEv+boKkh77kTljM+eNBouqCTbqWswGzbG+vDNO/b/v2C4gfEh1WgB9Lg==",
+        "flags": [
+          "-Oz",
+          "--remove-unused-module-elements",
+          "--strip-producers"
+        ]
+      },
+      "files": {
+        "rhwp.js": "88d32a03632af2977196bf4e6078f7930681a15d3702e74f7baee9706d36696a",
+        "rhwp_bg.wasm": "7e5af3c951c1a50994263bd0215924153434ab9e794f053b0b737bcf5cf04943"
+      }
     }
   }
 }

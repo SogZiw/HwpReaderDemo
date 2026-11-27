@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "flags": 0,
+      "compressed": true,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": true,
+        "allowPrint": true
+      },
+      "characters": 1570
+    },
+    {
+      "flags": 1,
+      "compressed": true,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": true
+      },
+      "characters": 1570
+    },
+    {
+      "flags": 2,
+      "compressed": true,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": true,
+        "allowPrint": false
+      },
+      "characters": 1570
+    },
+    {
+      "flags": 3,
+      "compressed": true,
+      "permissions": {
+        "readOnly": true,
+        "allowCopy": false,
+        "allowPrint": false
+      },
+      "characters": 1570
+    },
+    {
+      "multipleSections": true,
+      "mostRestrictivePermissions": true
+    }
+  ],
+  "real": null,
+  "inputUnchanged": true,
+  "malformedRejected": true,
+  "noBodyTextFallback": true
+}

@@ -1,0 +1,393 @@
+[
+  {
+    "name": "worker-tests",
+    "exitCode": 0,
+    "seconds": 0.034,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/worker-tests.cjs"
+    ],
+    "log": "worker-tests.log",
+    "result": {
+      "ok": true,
+      "checks": 10
+    }
+  },
+  {
+    "name": "password-tests",
+    "exitCode": 0,
+    "seconds": 1.059,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/password-tests.cjs"
+    ],
+    "log": "password-tests.log",
+    "result": {
+      "cases": [
+        {
+          "name": "ascii",
+          "compressed": true,
+          "characters": 1570
+        },
+        {
+          "name": "unicode",
+          "compressed": true,
+          "characters": 1570
+        },
+        {
+          "name": "uncompressed",
+          "compressed": false,
+          "characters": 1570
+        },
+        {
+          "hwpxPrf": "sha1",
+          "unicodePassword": true
+        },
+        {
+          "hwpxPrf": "sha256",
+          "unicodePassword": true
+        },
+        {
+          "hwp3Des": true,
+          "unicodePassword": true,
+          "crcChecked": true
+        }
+      ],
+      "inputUnchanged": true,
+      "unsupportedVersionRejected": true,
+      "independentCipher": "Node/OpenSSL AES-CFB1 and AES-CBC"
+    }
+  },
+  {
+    "name": "distribution-tests",
+    "exitCode": 0,
+    "seconds": 0.17,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/distribution-tests.cjs"
+    ],
+    "log": "distribution-tests.log",
+    "result": {
+      "cases": [
+        {
+          "flags": 0,
+          "compressed": true,
+          "permissions": {
+            "readOnly": true,
+            "allowCopy": true,
+            "allowPrint": true
+          },
+          "characters": 1570
+        },
+        {
+          "flags": 1,
+          "compressed": true,
+          "permissions": {
+            "readOnly": true,
+            "allowCopy": false,
+            "allowPrint": true
+          },
+          "characters": 1570
+        },
+        {
+          "flags": 2,
+          "compressed": true,
+          "permissions": {
+            "readOnly": true,
+            "allowCopy": true,
+            "allowPrint": false
+          },
+          "characters": 1570
+        },
+        {
+          "flags": 3,
+          "compressed": true,
+          "permissions": {
+            "readOnly": true,
+            "allowCopy": false,
+            "allowPrint": false
+          },
+          "characters": 1570
+        },
+        {
+          "multipleSections": true,
+          "mostRestrictivePermissions": true
+        }
+      ],
+      "real": null,
+      "inputUnchanged": true,
+      "malformedRejected": true,
+      "noBodyTextFallback": true
+    }
+  },
+  {
+    "name": "compat-tests",
+    "exitCode": 0,
+    "seconds": 0.032,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/compat-tests.cjs"
+    ],
+    "log": "compat-tests.log",
+    "result": {
+      "recordBoundaries": true,
+      "tenNumberingLevels": true,
+      "storageExtension": true,
+      "effectCodes": true,
+      "corpus": []
+    }
+  },
+  {
+    "name": "smoke-tests",
+    "exitCode": 0,
+    "seconds": 0.073,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/smoke-tests.cjs"
+    ],
+    "log": "smoke-tests.log",
+    "result": {
+      "reports": [
+        {
+          "file": "sample.hwp",
+          "sections": 1,
+          "characters": 1570,
+          "tables": 5,
+          "images": 4
+        }
+      ],
+      "malformedRejected": true,
+      "encryptedRejected": true
+    }
+  },
+  {
+    "name": "equation-tests",
+    "exitCode": 0,
+    "seconds": 0.024,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/equation-tests.cjs"
+    ],
+    "log": "equation-tests.log",
+    "result": {
+      "fractions": true,
+      "roots": true,
+      "scripts": true,
+      "matrices": true,
+      "malformedRejected": true
+    }
+  },
+  {
+    "name": "chart-tests",
+    "exitCode": 0,
+    "seconds": 0.024,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/chart-tests.cjs"
+    ],
+    "log": "chart-tests.log",
+    "result": {
+      "gridDimensions": true,
+      "slotOrder": true,
+      "integerValues": true,
+      "doubleValues": true,
+      "unicodeLabels": true,
+      "truncationRejected": true
+    }
+  },
+  {
+    "name": "chart-archive-tests",
+    "exitCode": 0,
+    "seconds": 0.032,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/chart-archive-tests.cjs",
+      "test-files/hwp/HWPTest/sample_hwp/basic/차트.hwp"
+    ],
+    "log": "chart-archive-tests.log",
+    "result": {
+      "cases": [
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/basic/차트.hwp",
+          "type": 1,
+          "rootOptions": 65535,
+          "reconstructionAllowed": true,
+          "noPreviewNode": "legacy-chart",
+          "orientation": "columns",
+          "series": 4,
+          "categories": 5,
+          "values": [
+            [
+              92,
+              16,
+              47,
+              38,
+              38
+            ],
+            [
+              82,
+              38,
+              26,
+              69,
+              69
+            ],
+            [
+              21,
+              75,
+              55,
+              45,
+              45
+            ],
+            [
+              45,
+              21,
+              21,
+              21,
+              88
+            ]
+          ],
+          "boundedFailure": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "format-tests",
+    "exitCode": 0,
+    "seconds": 0.374,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/format-tests.mjs",
+      "app/src/main/assets/samples/sample.hwp",
+      "app/src/main/assets/samples/sample.hwpx"
+    ],
+    "log": "format-tests.log",
+    "result": {
+      "engine": "@rhwp/core 0.9.1",
+      "cases": [
+        {
+          "file": "self-generated HWPML",
+          "characters": 22,
+          "textRoundtrip": true,
+          "loss": {
+            "schemaVersion": 1,
+            "outputFormat": "hwpx",
+            "count": 0,
+            "losses": []
+          }
+        },
+        {
+          "file": "app/src/main/assets/samples/sample.hwp",
+          "characters": 1253,
+          "textRoundtrip": true,
+          "loss": {
+            "schemaVersion": 1,
+            "outputFormat": "hwpx",
+            "count": 0,
+            "losses": []
+          }
+        },
+        {
+          "file": "app/src/main/assets/samples/sample.hwpx",
+          "characters": 727,
+          "textRoundtrip": true,
+          "loss": {
+            "schemaVersion": 1,
+            "outputFormat": "hwpx",
+            "count": 0,
+            "losses": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "rhwp-reader-tests",
+    "exitCode": 0,
+    "seconds": 0.77,
+    "command": [
+      "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "tools/rhwp-reader-tests.mjs",
+      "/var/folders/xl/pby044vs4rz8pfbc7dsh4n740000gn/T/hwp-wasm-opt-47sk5taj",
+      "/var/folders/xl/pby044vs4rz8pfbc7dsh4n740000gn/T/hwp-wasm-opt-47sk5taj/hwp3-sample.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/finding-all-field.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/merging-cell.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/changing-image.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/source.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/making_caption.hwp",
+      "test-files/hwp/HWPTest/sample_hwp/blank.hwp"
+    ],
+    "log": "rhwp-reader-tests.log",
+    "result": {
+      "ok": true,
+      "cases": [
+        {
+          "file": "HWPML",
+          "outputBytes": 5513,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "app/src/main/assets/samples/sample.hwp",
+          "outputBytes": 230981,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "app/src/main/assets/samples/sample.hwpx",
+          "outputBytes": 7514,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "samples/SimpleTable.hwpx",
+          "outputBytes": 8940,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "samples/SimplePicture.hwpx",
+          "outputBytes": 73056,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "samples/sample1.hwpx",
+          "outputBytes": 11183,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "/var/folders/xl/pby044vs4rz8pfbc7dsh4n740000gn/T/hwp-wasm-opt-47sk5taj/hwp3-sample.hwp",
+          "outputBytes": 68750,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/finding-all-field.hwp",
+          "outputBytes": 8491,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/merging-cell.hwp",
+          "outputBytes": 8567,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/changing-image.hwp",
+          "outputBytes": 66465,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/source.hwp",
+          "outputBytes": 8214,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/making_caption.hwp",
+          "outputBytes": 8217,
+          "identicalToUpstream": true
+        },
+        {
+          "file": "test-files/hwp/HWPTest/sample_hwp/blank.hwp",
+          "outputBytes": 7330,
+          "identicalToUpstream": true
+        }
+      ],
+      "invalidInputs": 2
+    }
+  }
+]

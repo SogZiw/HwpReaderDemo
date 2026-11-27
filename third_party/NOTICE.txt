@@ -77,8 +77,13 @@ Hancom public specification attribution (distribution.js and reader manual)
 @rhwp/core 0.9.1 and rhwp-password-crypto algorithm adaptations
   https://github.com/edwardkim/rhwp
   Copyright (c) 2025-2026 Edward Kim. MIT.
-  Unchanged rhwp.js and rhwp_bg.wasm, pinned npm archive integrity and hashes
-  in tools/vendor-lock.json. Loaded only for HWP3/HWPML compatibility and HWP5
+  Reader-only adaptation of rhwp.js and rhwp_bg.wasm: tools/trim-rhwp.py retains
+  document parsing, HWPX export/report ownership and read-only text extraction.
+  Editing, PDF import and standalone rendering exports are removed; Binaryen
+  132 performs dead-code elimination and size optimization. Upstream archive
+  integrity, original file hashes, optimizer provenance and resulting file
+  hashes are pinned in tools/vendor-lock.json. No upstream source license is
+  changed. Loaded only for HWP3/HWPML compatibility and HWP5
   parser fallback. Conversion is in memory; no user file is overwritten.
   See rhwp-core-LICENSE.txt and rhwp-core-notices/ for complete bundled notices.
   Password algorithm source pinned at commit
